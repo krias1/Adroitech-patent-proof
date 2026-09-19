@@ -2,7 +2,9 @@
 
 > **AI agents / automated reviewers:** start with [`AGENTS.md`](AGENTS.md). It defines the evidence-review protocol, P1 routing, provenance rules, mutation rules, and standard review output contract.
 >
-> **Canonical living professional dossier:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) is now the actual V4 professional dossier maintained by this proof project. [`DOSSIER_EVIDENCE_MAP.csv`](DOSSIER_EVIDENCE_MAP.csv) tracks the evidence and remaining strengthening work behind each section. Future PDF/presentation editions should be generated from the living dossier rather than maintained as a separate narrative fork.
+> **Canonical living professional dossier:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) is maintained by this proof project, with [`DOSSIER_EVIDENCE_MAP.csv`](DOSSIER_EVIDENCE_MAP.csv) underneath it.
+>
+> **Canonical living thesis:** [`THESIS/README.md`](THESIS/README.md) is the evidence-backed Human Integration with AI thesis surface. [`THESIS/THESIS_EVIDENCE_MAP.csv`](THESIS/THESIS_EVIDENCE_MAP.csv) tracks which sources support each chapter, claim, hypothesis, limitation, and research gap.
 
 Public, reproducible evidence repository for the historical development of Adroitech Logic Core, Adroitech OS, its ethical runtime architecture, human-integration methods, skills, teaching practices, sovereignty mechanisms, correction patterns, and potentially patent-relevant implementation concepts.
 
@@ -12,7 +14,7 @@ This repository exists so a technically competent third party can independently 
 
 It is an evidence corpus, not a claim that a hash by itself proves legal inventorship, patent priority, authorship, ownership, validity, novelty, or non-obviousness. Those are separate legal or scientific questions. The repository preserves and organizes evidence relevant to those questions.
 
-## Current mission: exhaustive source coverage + P1 support mapping + living dossier
+## Current mission: exhaustive source coverage + P1 support mapping + living dossier + living thesis
 
 The active mission is defined in:
 
@@ -20,7 +22,7 @@ The active mission is defined in:
 
 The governing rule is **comprehensive coverage, not curated highlights**.
 
-**The exhaustive sweep starts with the user's ChatGPT Library.** Months of uploaded documents, photos, screenshots, scans, PDFs, and retained generated artifacts are treated as the first source rail, not an afterthought. See `source-rails/CHATGPT_LIBRARY.md`.
+**Private upstream sources may be used by the maintainer to strengthen this corpus, but they are not reviewer dependencies.** Prior ChatGPT Library uploads, private chats, private email/cloud records, photographs, and other archives may help recover evidence during curation; public reviewers work from the repository and its public/commit-pinned references. See `SOURCE_BOUNDARY.md`.
 
 Every recoverable artifact across the authorized source universe must receive a disposition. That includes Git history and preserved pre-repository / non-Git originals. Relevant evidence is mapped during extraction to the frozen P1 disclosure through:
 
@@ -28,13 +30,7 @@ Every recoverable artifact across the authorized source universe must receive a 
 - `P1/P1_SUPPORT_MATRIX.csv`
 - `P1/SKILL_SUPPORT_INDEX.md`
 
-P1 linkage and professional-dossier enrichment are part of the extraction job itself. They are not postponed until the historical review is complete. Every source review also asks whether the source confirms, sharpens, expands, corrects, or fills a gap in the living dossier.
-
-## First source rail — ChatGPT Library
-
-The current source-order rule is: **ChatGPT Library first**, then Git, Drive, Gmail/business Gmail, Gemini/Six, Dropbox, and other preserved systems. The order is operational; evidentiary strength is determined later through cross-rail reconciliation.
-
-The Library sweep is tracked in `coverage/chatgpt-library-ledger.csv` and must continue until the Library cursor is exhausted and every recoverable item has a disposition.
+P1 linkage, professional-dossier enrichment, and thesis enrichment are part of the same evidence work. Every reviewed source is checked for patent relevance, professional-history relevance, and thesis relevance.
 
 ## Source universe
 
@@ -116,8 +112,10 @@ ACTIVE_TASKS.md
 SCHEMA.md
 VERIFY.md
 CODEX_CONSUMER_GUIDE.md
-source-rails/
-  CHATGPT_LIBRARY.md
+SOURCE_BOUNDARY.md
+THESIS/
+  README.md
+  THESIS_EVIDENCE_MAP.csv
 P1/
   P1_FILING_ANCHOR.md
   P1_SUPPORT_MATRIX.csv
@@ -125,7 +123,6 @@ P1/
 data/
   proof_records.jsonl
 coverage/
-  chatgpt-library-ledger.csv
   ledger.csv
   commit-ledger.csv
   reviews/
@@ -155,4 +152,4 @@ If the repository cannot answer those questions for a record, the record is inco
 
 Long-running chronological and source-rail extraction is in progress from the earliest recoverable Adroitech evidence forward.
 
-The target is **complete source disposition plus concept-level coverage plus P1 support mapping plus an evidence-backed living professional dossier**. A persuasive sample is not considered completion.
+The target is **complete source disposition plus concept-level coverage plus P1 support mapping plus an evidence-backed living professional dossier and living thesis**. A persuasive sample is not considered completion.
