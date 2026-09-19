@@ -154,7 +154,28 @@ Procedure:
    - evidence exists as implementation or operational receipt.
 5. Produce a gap list with the exact next source class to inspect.
 
-## F. Prior-art / differentiation review
+## F. Professional dossier enrichment
+
+Question form:
+
+- "Improve the dossier."
+- "What professional-history gaps remain?"
+- "Did this source add anything to Charles Todd's professional record?"
+- "Build the evidence behind this dossier section."
+
+Procedure:
+
+1. Start with `PROFESSIONAL_DOSSIER.md` and `DOSSIER_EVIDENCE_MAP.csv`.
+2. Inspect the recovered source for professional significance even when its primary proof purpose is patent, product, business, community, education, military, or technical history.
+3. Identify the affected dossier section and exact evidence class.
+4. Update the evidence map during the same review pass.
+5. Strengthen the public dossier only when the evidence supports a cleaner or more complete statement.
+6. Preserve the full trajectory: military/physical systems → IT/networking → community systems → software → industrial systems → entrepreneurship → resilient infrastructure → person-centered AI.
+7. Do not let current patent or AI work overwrite the earlier professional history.
+8. Keep evidence-gap mechanics out of the polished narrative; record them in the evidence map.
+9. Preserve privacy boundaries and omit unnecessary personal details about third parties.
+
+## G. Prior-art / differentiation review
 
 Question form:
 
@@ -268,8 +289,10 @@ When modifying this repository:
 6. update the appropriate coverage ledger;
 7. update the P1 support matrix during the same review pass when the evidence is P1-relevant;
 8. update the skill index during the same review pass when a skill is implicated;
-9. use commit messages that state the evidence operation performed;
-10. return the real resulting commit SHA.
+9. update `DOSSIER_EVIDENCE_MAP.csv` during the same review pass when professional-history evidence is implicated;
+10. update `PROFESSIONAL_DOSSIER.md` when newly established evidence materially improves the professional narrative;
+11. use commit messages that state the evidence operation performed;
+12. return the real resulting commit SHA.
 
 A review is not complete merely because a Markdown narrative was added. Machine-readable/index records must stay synchronized.
 
@@ -339,6 +362,7 @@ Do not invent near-synonyms when writing structured records.
 |---|---|
 | "Explain the repo" | `README.md` + `AGENTS.md` |
 | "Who is the inventor / what is his professional background?" | `PROFESSIONAL_DOSSIER.md` |
+| "Improve/fill gaps in the professional dossier" | `PROFESSIONAL_DOSSIER.md` + `DOSSIER_EVIDENCE_MAP.csv` |
 | "What is the current mission?" | `ACTIVE_TASKS.md` |
 | "What exactly was P1?" | `P1/P1_FILING_ANCHOR.md` |
 | "What supports a patent section?" | `P1/P1_SUPPORT_MATRIX.csv` |
