@@ -1,5 +1,7 @@
 # Adroitech Patent Proof Repository
 
+> **AI agents / automated reviewers:** start with [`AGENTS.md`](AGENTS.md). It defines the evidence-review protocol, P1 routing, provenance rules, mutation rules, and standard review output contract.
+
 Public, reproducible evidence repository for the historical development of Adroitech Logic Core, Adroitech OS, its ethical runtime architecture, human-integration methods, skills, teaching practices, sovereignty mechanisms, correction patterns, and potentially patent-relevant implementation concepts.
 
 ## Purpose
@@ -97,6 +99,7 @@ Every proof record should preserve, where available:
 
 ```text
 README.md
+AGENTS.md
 ACTIVE_TASKS.md
 SCHEMA.md
 VERIFY.md
