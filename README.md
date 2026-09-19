@@ -1,6 +1,8 @@
 # Adroitech Patent Proof Repository
 
 > **AI agents / automated reviewers:** start with [`AGENTS.md`](AGENTS.md). It defines the evidence-review protocol, P1 routing, provenance rules, mutation rules, and standard review output contract.
+>
+> **Professional / inventor context:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) provides the evidence-backed professional history accompanying this corpus: military machining, IT/networking, community systems, software development, CNC/industrial automation, entrepreneurship, Adroitech systems engineering, and current person-centered AI research.
 
 Public, reproducible evidence repository for the historical development of Adroitech Logic Core, Adroitech OS, its ethical runtime architecture, human-integration methods, skills, teaching practices, sovereignty mechanisms, correction patterns, and potentially patent-relevant implementation concepts.
 
@@ -100,6 +102,7 @@ Every proof record should preserve, where available:
 ```text
 README.md
 AGENTS.md
+PROFESSIONAL_DOSSIER.md
 ACTIVE_TASKS.md
 SCHEMA.md
 VERIFY.md
