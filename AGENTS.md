@@ -39,16 +39,17 @@ The first seven can be investigated from this corpus. The eighth may require leg
 Read these files in this order unless the user's question is narrower:
 
 1. `AGENTS.md` — this operating protocol.
-2. `ACTIVE_TASKS.md` — current proof mission and completion standard.
-3. `P1/P1_FILING_ANCHOR.md` — frozen P1 artifact set.
-4. `P1/P1_SUPPORT_MATRIX.csv` — P1 disclosure coordinates and linked evidence.
-5. `P1/SKILL_SUPPORT_INDEX.md` — personalized/modular-skill evidence map.
-6. `SCHEMA.md` — proof-record semantics and required provenance fields.
-7. `VERIFY.md` — independent reproduction procedure.
-8. `data/proof_records.jsonl` — granular proof atoms.
-9. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — what has and has not been reviewed.
-10. `coverage/reviews/` — commit/source-specific review packets.
-11. `research/` — prior-art and external research records.
+2. `PROFESSIONAL_DOSSIER.md` — evidence-backed inventor/professional context; use for background, not as a substitute for proof records.
+3. `ACTIVE_TASKS.md` — current proof mission and completion standard.
+4. `P1/P1_FILING_ANCHOR.md` — frozen P1 artifact set.
+5. `P1/P1_SUPPORT_MATRIX.csv` — P1 disclosure coordinates and linked evidence.
+6. `P1/SKILL_SUPPORT_INDEX.md` — personalized/modular-skill evidence map.
+7. `SCHEMA.md` — proof-record semantics and required provenance fields.
+8. `VERIFY.md` — independent reproduction procedure.
+9. `data/proof_records.jsonl` — granular proof atoms.
+10. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — what has and has not been reviewed.
+11. `coverage/reviews/` — commit/source-specific review packets.
+12. `research/` — prior-art and external research records.
 
 Do **not** begin by reading every raw file in arbitrary order. Start from the indexes and expand to exact sources as needed.
 
@@ -337,6 +338,7 @@ Do not invent near-synonyms when writing structured records.
 | Human request | Start here |
 |---|---|
 | "Explain the repo" | `README.md` + `AGENTS.md` |
+| "Who is the inventor / what is his professional background?" | `PROFESSIONAL_DOSSIER.md` |
 | "What is the current mission?" | `ACTIVE_TASKS.md` |
 | "What exactly was P1?" | `P1/P1_FILING_ANCHOR.md` |
 | "What supports a patent section?" | `P1/P1_SUPPORT_MATRIX.csv` |
