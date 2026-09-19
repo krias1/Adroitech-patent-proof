@@ -39,45 +39,27 @@ The first seven can be investigated from this corpus. The eighth may require leg
 Read these files in this order unless the user's question is narrower:
 
 1. `AGENTS.md` — this operating protocol.
-2. `PROFESSIONAL_DOSSIER.md` — evidence-backed inventor/professional context; use for background, not as a substitute for proof records.
-3. `source-rails/CHATGPT_LIBRARY.md` — Phase 0 source-rail protocol; the exhaustive sweep starts with prior ChatGPT Library uploads and images.
-4. `coverage/chatgpt-library-ledger.csv` — current Library inventory/disposition ledger.
-5. `ACTIVE_TASKS.md` — current proof mission and completion standard.
+2. `PROFESSIONAL_DOSSIER.md` — living professional dossier.
+3. `THESIS/README.md` — living Human Integration with AI thesis.
+4. `ACTIVE_TASKS.md` — current proof/dossier/thesis mission.
+5. `SOURCE_BOUNDARY.md` — public corpus vs. maintainer-only private upstream sources.
 6. `P1/P1_FILING_ANCHOR.md` — frozen P1 artifact set.
 7. `P1/P1_SUPPORT_MATRIX.csv` — P1 disclosure coordinates and linked evidence.
-8. `P1/SKILL_SUPPORT_INDEX.md` — personalized/modular-skill evidence map.
-9. `SCHEMA.md` — proof-record semantics and required provenance fields.
-10. `VERIFY.md` — independent reproduction procedure.
-11. `data/proof_records.jsonl` — granular proof atoms.
-12. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — what has and has not been reviewed.
-13. `coverage/reviews/` — commit/source-specific review packets.
-14. `research/` — prior-art and external research records.
+8. `P1/SKILL_SUPPORT_INDEX.md` — modular-skill evidence map.
+9. `DOSSIER_EVIDENCE_MAP.csv` — professional-history support map.
+10. `THESIS/THESIS_EVIDENCE_MAP.csv` — thesis support and research-gap map.
+11. `SCHEMA.md` — proof-record semantics.
+12. `VERIFY.md` — independent reproduction procedure.
+13. `data/proof_records.jsonl` — granular proof atoms.
+14. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — coverage status.
+15. `coverage/reviews/` — source-specific review packets.
+16. `research/` — external research/prior-art records.
 
-Do **not** begin by reading every raw file in arbitrary order. Start from the indexes and expand to exact sources as needed.
+Do **not** attempt to enter the maintainer's private ChatGPT Library, private chats, email, cloud storage, or local accounts. Private upstream material may be used by the maintainer to strengthen the corpus, but the repository is the reviewer-facing evidence system.
 
 ---
 
-# 2. Phase 0 source rule — start with ChatGPT Library
-
-For exhaustive-review work, do not begin with GitHub merely because Git is easier to query.
-
-Begin with the user's ChatGPT Library and work through it in cursor-complete batches.
-
-For every Library item:
-
-1. record it in `coverage/chatgpt-library-ledger.csv`;
-2. preserve Library metadata and exact-byte hash when safely available;
-3. classify user-uploaded vs model-generated;
-4. inspect content when authorized and relevant;
-5. classify duplicate/mirror/protected/superseded status;
-6. emit proof atoms where warranted;
-7. update dossier evidence where warranted;
-8. update P1 support where warranted;
-9. reconcile the item against later Git/Drive/Gmail/Dropbox copies.
-
-Do not mistake "already summarized in Git" for "Library reviewed." The original ChatGPT-uploaded artifact remains its own source-rail event until reconciled.
-
-# 3. Review modes
+# 2. Review modes
 
 Determine which mode the human request requires.
 
@@ -197,7 +179,27 @@ Procedure:
 8. Keep evidence-gap mechanics out of the polished narrative; record them in the evidence map.
 9. Preserve privacy boundaries and omit unnecessary personal details about third parties.
 
-## G. Prior-art / differentiation review
+## G. Thesis enrichment
+
+Question form:
+
+- "Improve the thesis."
+- "What evidence supports this thesis claim?"
+- "What research gaps remain?"
+- "Did this source change a thesis chapter, hypothesis, or limitation?"
+
+Procedure:
+
+1. Start with `THESIS/README.md` and `THESIS/THESIS_EVIDENCE_MAP.csv`.
+2. Inspect the source for thesis significance even when its primary role is patent, product, ethics, skill, field operation, professional history, or correction.
+3. Identify the affected chapter, research question, hypothesis, and evidence role.
+4. Update the thesis evidence map during the same review pass.
+5. Update the living thesis when evidence materially improves the argument, method, limitation, or engineering embodiment.
+6. Preserve contrary evidence and unresolved questions.
+7. Keep private upstream source payloads private; carry only privacy-safe evidence into the public corpus.
+8. Do not turn product claims into research conclusions without evidence and evaluation.
+
+## H. Prior-art / differentiation review
 
 Question form:
 
@@ -214,7 +216,7 @@ Procedure:
 
 ---
 
-# 4. Evidence hierarchy
+# 3. Evidence hierarchy
 
 Prefer the strongest available evidence, but never hide weaker or conflicting evidence.
 
@@ -232,7 +234,7 @@ A later strong artifact does not erase an earlier weaker one. Preserve the chain
 
 ---
 
-# 5. P1 rules
+# 4. P1 rules
 
 P1 is frozen.
 
@@ -250,7 +252,7 @@ When mapping evidence:
 
 ---
 
-# 6. Source-universe rules
+# 5. Source-universe rules
 
 This project is not Git-only.
 
@@ -279,7 +281,7 @@ For non-Git evidence:
 
 ---
 
-# 7. Protected personalization
+# 6. Protected personalization
 
 Some evidence proves that the system handled real individualized state but cannot safely be reproduced publicly.
 
@@ -297,7 +299,7 @@ Do not infer the private facts themselves from privacy-safe metadata.
 
 ---
 
-# 8. Mutation rules for agents with write access
+# 7. Mutation rules for agents with write access
 
 Evidence history is append-preserving.
 
@@ -313,14 +315,16 @@ When modifying this repository:
 8. update the skill index during the same review pass when a skill is implicated;
 9. update `DOSSIER_EVIDENCE_MAP.csv` during the same review pass when professional-history evidence is implicated;
 10. update `PROFESSIONAL_DOSSIER.md` when newly established evidence materially improves the professional narrative;
-11. use commit messages that state the evidence operation performed;
-12. return the real resulting commit SHA.
+11. update `THESIS/THESIS_EVIDENCE_MAP.csv` when evidence materially affects the thesis;
+12. update `THESIS/README.md` when established evidence materially improves the research narrative;
+13. use commit messages that state the evidence operation performed;
+14. return the real resulting commit SHA.
 
 A review is not complete merely because a Markdown narrative was added. Machine-readable/index records must stay synchronized.
 
 ---
 
-# 9. Standard review output contract
+# 8. Standard review output contract
 
 When presenting a result to a human reviewer, use this compact structure when applicable:
 
@@ -349,7 +353,7 @@ Do not bury a source conflict in prose.
 
 ---
 
-# 10. Machine-oriented status vocabulary
+# 9. Machine-oriented status vocabulary
 
 Use the repository's existing status values exactly where schemas define them.
 
@@ -378,12 +382,13 @@ Do not invent near-synonyms when writing structured records.
 
 ---
 
-# 11. Fast routing table
+# 10. Fast routing table
 
 | Human request | Start here |
 |---|---|
 | "Explain the repo" | `README.md` + `AGENTS.md` |
-| "Start/continue the exhaustive source sweep" | `source-rails/CHATGPT_LIBRARY.md` + `coverage/chatgpt-library-ledger.csv` |
+| "What private sources can/should I access?" | `SOURCE_BOUNDARY.md` — public reviewers do not enter private maintainer accounts |
+| "Explain/improve the thesis" | `THESIS/README.md` + `THESIS/THESIS_EVIDENCE_MAP.csv` |
 | "Who is the inventor / what is his professional background?" | `PROFESSIONAL_DOSSIER.md` |
 | "Improve/fill gaps in the professional dossier" | `PROFESSIONAL_DOSSIER.md` + `DOSSIER_EVIDENCE_MAP.csv` |
 | "What is the current mission?" | `ACTIVE_TASKS.md` |
@@ -399,7 +404,7 @@ Do not invent near-synonyms when writing structured records.
 
 ---
 
-# 12. Final instruction to any AI reviewer
+# 11. Final instruction to any AI reviewer
 
 Treat this repository as an **evidence graph, not a pile of documents**.
 
