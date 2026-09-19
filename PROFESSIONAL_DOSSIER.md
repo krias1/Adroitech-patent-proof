@@ -1,259 +1,237 @@
-# Charles Anthony Todd Jr. — Professional Dossier
+# Charles Anthony Todd Jr. — Professional Dossier — Living V4
 
-**Primary professional identity:** Systems Engineer  
-**Supporting identity:** Technologist · Entrepreneur · Inventor · Independent Researcher · Human-Centered Systems Builder  
-**Current organization:** Adroitech LLC  
-**Patent status:** U.S. provisional patent application filed; Patent Pending
+Updated: 2026-09-19
+Status: CANONICAL LIVING DOSSIER — maintained by the patent-proof evidence stream
+Primary identity: SYSTEMS ENGINEER
 
-## Why this dossier is here
+**Canonical living location:** `krias1/Adroitech-patent-proof.` / `PROFESSIONAL_DOSSIER.md`  
+**V4 source checkpoint:** `krias1/Adroitech-Logic-Core` / `Adroitech rollout/PROFESSIONAL_DOSSIER_V4_WORKING_RENDER_2026-09-16.md` / blob `516f470b06547842a4284ffb3c237ec9cb3d7ad4`  
+**Canonical evidence source checkpoint:** `Adroitech rollout/PROFESSIONAL_DOSSIER_CANONICAL_EVIDENCE_2026-09-16.md` / blob `4c6133297687072bc1efbc3cd3928246af060977`
 
-This repository is an evidence corpus. The professional dossier travels with it so an outside scientist, engineer, patent practitioner, technical reviewer, or AI system can understand the human and technical background behind the work without reconstructing that context from unrelated records.
+This root file is now the **actual professional dossier**. Future presentation exports and eventual PDF editions should be generated from this living source rather than creating a separate narrative fork.
 
-This page is **professional context, not a substitute for the underlying proof**. The patent-proof corpus remains responsible for exact-source provenance, chronology, hashes, concept atoms, implementation records, P1 mapping, conflicts, and reproducibility.
+## V4 thesis
 
-The dossier is derived from the canonical professional-evidence record preserved in `krias1/Adroitech-Logic-Core`:
+Charles Anthony Todd Jr.'s professional history is best understood as a nearly two-decade-plus systems trajectory, not a collection of unrelated jobs. The recurring operating philosophy is to understand dependencies deeply enough to build useful structure around them: identify the real constraint, intervene where action is needed, give people or organizations usable capability, reduce unnecessary dependency, preserve recoverability, and increase sovereignty.
 
-- `Adroitech rollout/PROFESSIONAL_DOSSIER_CANONICAL_EVIDENCE_2026-09-16.md`
-- canonical source blob at the reviewed snapshot: `4c6133297687072bc1efbc3cd3928246af060977`
-- presentation architecture: `Adroitech rollout/PROFESSIONAL_DOSSIER_V4_WORKING_RENDER_2026-09-16.md`
+The trajectory is:
 
-## Executive profile
+machining -> computing -> networking -> programming -> automation -> community systems -> entrepreneurship -> aerospace/industrial systems -> resilient infrastructure -> distributed business systems -> human-centered AI systems.
 
-Charles Anthony Todd Jr. is a systems engineer whose professional trajectory spans physical machines, information technology, networks, software development, industrial automation, community systems, entrepreneurship, resilient infrastructure, local/private AI, and person-centered AI systems.
+The public dossier is presentation-oriented. Do not insert `UNKNOWN`, `NEEDS VERIFY`, scrape-status chatter, or pending-relink language into the public narrative. Evidence gaps and strengthening work belong in `DOSSIER_EVIDENCE_MAP.csv`. The exhaustive proof sweep must continuously test recovered material against this dossier and sharpen, expand, correct, or substantiate the narrative when the evidence supports doing so.
 
-The recurring method across those domains is integration: understand the real dependency chain, identify the constraint, build or repair the missing structure, preserve recoverability, transfer useful capability to the operator, and reduce unnecessary dependency.
+## 1. Systems Engineer — cover and executive identity
 
-The professional arc can be summarized as:
+Primary title: **SYSTEMS ENGINEER**.
 
-**machining → computing → networking → programming → automation → community systems → entrepreneurship → industrial systems → resilient infrastructure → distributed business systems → human-centered AI systems**
+Supporting identity: technologist, entrepreneur, inventor, independent researcher, human-centered systems builder.
 
-## Military and physical-systems foundation
+Core positioning: a systems engineer who works across physical machines, networks, software, automation, business infrastructure, community operations, and AI systems. The defining capability is integration — understanding technical and human dependencies well enough to make the whole operating environment function.
 
-### United States Army
+## 2. The long-run philosophy — sovereignty through structure
 
-Government service records preserved in the canonical dossier establish:
+Sovereignty is not a new AI-era slogan. It is a long-running practice visible across community work, entrepreneurship, business formation, technical infrastructure, and current AI architecture.
 
-- United States Army service;
-- active-duty entry: **February 22, 2000**;
-- discharge: **April 18, 2002**;
-- character of service: **Under Honorable Conditions**.
+The practical method is:
+- understand the dependency chain;
+- identify what is actually blocking progress;
+- build or repair the missing structure;
+- deliver actionable help at the level where it is needed;
+- teach enough understanding for the person or organization to retain control;
+- reduce dependency rather than manufacture it.
 
-Contemporaneous professional records describe machinist work, fabrication and repair of mission-sensitive equipment, manual machining, blueprint interpretation, and leadership responsibilities.
+This philosophy connects community education and advocacy to business formation, technology, tax/compliance structure, infrastructure, recoverability, portability, and human-centered AI.
 
-This period forms the physical-systems foundation of the later systems-engineering work: precision, dependencies, tolerances, troubleshooting, repair, and the requirement that a system function in the real world.
+## 3. Military and machining foundation
 
-## Information technology and networking education
+Public treatment should remain concise:
+- early-2000s U.S. Army;
+- Ordnance Corps;
+- honorable/honorably characterized service presentation;
+- Aberdeen Proving Ground machinist training;
+- machining, fabrication, repair, blueprint comprehension, precision and troubleshooting as the physical-systems foundation.
 
-### Tidewater Tech College — Newport News, Virginia
+Do not overload the professional presentation with unrelated service-record detail.
 
-Recovered educational/professional evidence establishes a 2006–2007 Information Technology / computer-networking training period at Tidewater Tech College.
+## 4. IT / networking education and technical recognition
 
-Historical professional records identify:
+Tidewater Tech College, Newport News, Virginia:
+- Associate Occupational Science in Information Technology, with computer-networking focus;
+- 2006-2007;
+- historical GPA 3.85;
+- National Technical Honor Society membership/honor originating in the Tidewater era.
 
-- Information Technology / Computer Network Management studies;
-- an Associate of Occupational Science path reflected in historical records;
-- historical GPA: **3.85**;
-- CompTIA A+ examination scheduling during the same training period.
+NTHS is a historical technical honor, not a new 2026 award.
 
-### National Technical Honor Society
+## 5. Community systems — Chicago, AmeriCorps, and continuing nonprofit work
 
-The National Technical Honor Society recovered Charles Todd's historical membership record in 2026 after reviewing supplied diploma photographs and updating the historical member account.
+AmeriCorps must be prominent but must NOT be portrayed as the beginning or catalyst of Charles's nonprofit/service philosophy.
 
-The professional significance is not the 2026 recovery date. The recovered record ties the honor to the earlier Newport News technical-school period and preserves a long-running technical-education history.
+The chronology and presentation should distinguish:
+- a broader pre-existing nonprofit/community-service orientation;
+- **one defined year of Notre Dame AmeriCorps service at St. Joseph Services, September 2007-August 2008**;
+- continued Chicago nonprofit/advocacy work after the AmeriCorps year, including Victor C. Neumann and later St. Joseph Services Advocate / IT Specialist work;
+- later Baltimore nonprofit leadership and organizational development.
 
-## Community systems, teaching, and direct human support
+AmeriCorps / St. Joseph Services work included teaching ESL, adult education, citizenship/GED/computer classes; after-school and summer-program leadership; mentoring and tutoring; community-center IT; an 18-computer/two-router network; server/Active Directory, VPN/Outlook and peripherals; logistics; fundraising/community activities; public relations; advocacy; and direct relationships with families.
 
-Technical work has existed alongside a long-running service and teaching practice.
+A contemporaneous recommendation from St. Joseph Services site manager Ernesto Fierro documents a specific case in which Charles helped a mother complete her son's high-school application, initiated contact with a scholarship representative, ensured the family completed/faxed the required paperwork, and the child was accepted to a Chicago magnet school and scholarship program. The letter also documents ESL teaching, after-school leadership, tutoring, and effectiveness in adverse/changing conditions.
 
-### Notre Dame Mission Volunteers / AmeriCorps / St. Joseph Services — Chicago
+Later user-supplied history describes the same family maintaining trust beyond the formal organization: years later the mother sought Charles's intervention/guidance for her son; Charles helped teach him to drive using his own resources and tied that support to continuing education/college. A previously shown photograph depicted the young man smiling while holding his driver's license. This later chapter should be treated as user-supplied continuity context unless/when the photograph and related later-event materials are re-linked; the contemporary recommendation independently anchors the earlier school/scholarship intervention.
 
-Historical records preserve service from **September 2007 through August 2008** with roles including:
+Public-dossier treatment: use an anonymized case example if included. Do not expose the child's identity or unnecessary personal details.
 
-- teacher;
-- after-school program coordinator;
-- IT specialist;
-- adult-education and computer instruction;
-- community-center network and systems support;
-- server / Active Directory administration;
-- VPN, Outlook, printers, projectors, and related infrastructure;
-- youth programming, mentoring, tutoring, logistics, and family support.
+## 6. Chicago nonprofit work beyond AmeriCorps
 
-The technical environment included an approximately 18-computer community-center network and two routers.
+Victor C. Neumann Association and continued St. Joseph Services work demonstrate that the nonprofit/community trajectory continued beyond the single AmeriCorps service year.
 
-A contemporaneous recommendation preserved in the professional record documents direct educational advocacy for a family, including application and scholarship-process assistance that resulted in a student's acceptance into a Chicago magnet-school and scholarship program.
+Relevant functions include direct support, advocacy/social-work support, group-home operations, crisis intervention, conflict resolution, service-plan implementation, health/safety responsibilities, teaching basic computer skills, IT administration, adult education and practical client support.
 
-### Victor C. Neumann Association — Chicago
+The important narrative is years of direct, on-the-ground work in resource-constrained/high-stress communities — not detached boardroom discussion about what people might need.
 
-Historical records preserve service from **September 2008 through October 2009** in direct-support / advocacy work, including teaching basic computer skills.
+## 7. Baltimore — BE H.O.P.E. and formal human-support systems
 
-These experiences are part of the technical history because they establish years of designing and operating systems around real human constraints rather than treating technology as an isolated engineering problem.
+BE H.O.P.E. / Helping Other People Excel extends the same philosophy into formal nonprofit structure in Baltimore.
 
-## Software development
+Recovered documents describe purposes centered on homeless/disenfranchised men, essential resources, life skills, stability, housing, self-sufficiency, empowerment and independence.
 
-### Waubonsee Community College
+Professional significance: effective help required understanding organization formation, bylaws, tax/compliance structure, program design, administration, contracts, resource coordination and the dependencies required to make a human-support system actually operate.
 
-Verified transcript evidence establishes:
+This is a major bridge to the current Adroitech sovereignty philosophy: capability and independence require functioning structure.
 
-- **Computer Software Development — Certificate of Achievement**;
-- award date: **May 20, 2013**;
-- overall transcript GPA: **3.43**.
+## 8. Software development while actively working CNC
 
-Coursework includes:
+Waubonsee Community College:
+- Certificate of Achievement — Computer Software Development, awarded May 20, 2013;
+- programming study included Java, C++, structured programming, mobile application development and related coursework.
 
-- Introduction to Programming;
-- Introduction to Java;
-- C++ Programming;
-- Advanced Java;
-- Structured Program Design;
-- Mobile Device Application Programming;
-- Introduction to CNC.
+Do NOT make grades the central story.
 
-The software-development study overlapped with active CNC/manufacturing work, creating a direct bridge between physical production systems, machine control, programming, and later systems integration.
+The important story is concurrent development: Charles was actively working in CNC manufacturing while deliberately taking multiple programming/software/control courses to expand his understanding of code, machines and production systems. This is the bridge between physical machining and software/systems thinking.
 
-## Industrial systems, CNC, and automation
+## 9. Entrepreneurship and Baltimore Adroitech / Charm City Geeks
 
-The professional record contains a substantial machining and industrial-systems lane extending beyond the Army foundation.
+Entrepreneurship predates the current North Carolina Adroitech LLC and includes Modern Artistries, independent computer/network services and commercial web/online operations.
 
-Historical records include:
+The Baltimore technology-company lineage must include:
+- the original Baltimore-era **Adroitech LLC**;
+- DBA/identity **CCG / Charm City Geeks**;
+- preserved business formation records, branded materials, customer files, invoices and website assets;
+- STL / 3D-model workflows;
+- 3D printing;
+- Titan Grip product/invention work;
+- early patent/IP-oriented work.
 
-- CNC setup and operation;
-- blueprint interpretation;
-- precision gauging;
-- G&M code;
-- CAD/CAM exposure;
-- Mastercam;
-- operator training;
-- lean/process-improvement familiarity;
-- networked CNC production environments;
-- FANUC industrial robotics;
-- aerospace-oriented machining environments.
+This entrepreneurial/prototyping work occurred alongside Baltimore CNC/aerospace manufacturing work and should be presented as a convergence of computing, fabrication, product design and business systems rather than isolated side projects.
 
-The public professional framing is deliberately systems-oriented: **networked CNC manufacturing cells integrating machine tools, software/control layers, and industrial robotics**.
+## 10. Aerospace, CNC, robotics and industrial systems
 
-## Entrepreneurship and commercial technology work
+Baltimore manufacturing work included aerospace-oriented production, not merely generic industry. Archived customer/project materials include precision aluminum and titanium components and other aerospace-oriented production artifacts.
 
-The professional record includes repeated entrepreneurship and independent technical service predating the current North Carolina Adroitech LLC.
+Broader industrial experience includes CNC setup/operation, G&M code, blueprint interpretation, precision gauging, troubleshooting, CAD/CAM, operator training, lean/process improvement, machine networking, and FANUC robotic environments.
 
-Historical records preserve work involving:
+Do NOT use brittle exact claims such as '11 CNC machines and 5 robots' in the public dossier. Prefer accurate systems language such as:
 
-- independent PC and network repair;
-- virus removal;
-- data migration, recovery, and loss prevention;
-- laptop repair;
-- networking;
-- web and online-account management;
-- e-commerce operations;
-- product/prototyping work;
-- 3D-model / 3D-printing workflows;
-- earlier Adroitech / Charm City Geeks business activity.
+**networked CNC manufacturing cells integrating multiple machine tools and FANUC industrial robotics**
 
-The canonical evidence record also identifies earlier business evidence such as Modern Artistries that remains part of the long-form chronology while its previously supplied primary artifact is being relinked to the current evidence rail.
+or
 
-## Adroitech LLC — current systems engineering
+**a substantial network of CNC/DNC production equipment and robotic systems.**
 
-Charles Anthony Todd Jr. is the sole owner and Managing Member of **Adroitech LLC**, a North Carolina limited liability company.
+## 11. Current Adroitech LLC systems engineering
 
-Current documented technical operations include:
+This section must be substantially deeper than earlier dossier versions.
 
-- systems architecture and technology consulting;
-- server deployment and administration;
-- virtualization;
-- storage, backup, recovery, and redeployment;
-- networking and secure remote access;
-- VPN and reverse-proxy infrastructure;
-- software and web applications;
-- workflow automation;
-- cybersecurity configuration, authentication, and hardening;
-- hardware deployment, repair, integration, and data sanitization;
-- local/private AI and owned-compute infrastructure;
-- edge systems;
-- asset/configuration/lifecycle management;
-- version-controlled operating records and recovery documentation.
+Current documented operations include:
+- technology consulting and systems architecture;
+- server deployment, virtualization, administration, storage, backup, recovery and redeployment;
+- network design/configuration/integration, VPN, secure remote access, reverse proxies and troubleshooting;
+- software, web applications, automation and internal tooling;
+- cybersecurity configuration, hardening, authentication and access control;
+- hardware installation, repair, configuration, integration and data sanitization;
+- local/private AI, edge computing, model hosting and owned-compute infrastructure;
+- asset, inventory, configuration, documentation and lifecycle-management systems;
+- version-controlled repositories, build state, operating records and failure/recovery documentation.
 
-A recurring current architecture is the use of compact, deployable infrastructure with modular workloads, recoverable service components, backups, snapshots, cold copies, repositories, and configuration records so continuity survives replacement hardware and changing network topologies.
+### Deployable / resilient architecture
 
-## Adroitech Logic Core / Adroitech OS
+A major current architecture is compact/mini-server quick deployment with VM-backed modular business workloads. Business platforms can be separated into recoverable service components and preserved through backups, snapshots, cold copies, repositories and configuration records, allowing rapid deployment, redeployment, reconstruction or migration across replacement devices and changing network topologies.
 
-Current engineering and research preserved in the canonical repository includes:
+The design goal is continuity rather than attachment to one physical box: modular, redundant, recoverable, portable and customer-controlled infrastructure.
 
-- Person Model Runtime;
-- Person State;
-- Context VMs;
-- Continuity Hypervisor;
-- bounded current-world context;
+This should be a recurring V4 theme, not one bullet.
+
+## 12. Adroitech OS / Logic Core / human-centered AI
+
+Current research and engineering includes:
+- Context VMs / resumable workstreams;
+- Person State and temporal continuity;
+- multi-source context resolution;
 - repository-backed operational memory;
 - evidence receipts and correction discipline;
-- cross-device and cross-provider continuity;
-- transferable/modular procedural skills;
-- local/private AI and customer-controlled durable state;
-- mobile and field endpoints;
-- physical-world write-back;
-- distributed person-centered operation;
-- Human Integration with AI research;
-- AI Social Contract / ethical-runtime doctrine.
+- cross-device/provider continuity;
+- local/private AI and owned compute;
+- mobile/field architecture;
+- Human Integration thesis / AI Social Contract work;
+- person-specific runtime modeling and distributed person-centered operation.
 
-The engineering objective is not a chatbot persona. It is a portable operating layer in which durable person/workstream state, permissions, provenance, correction history, and execution context can survive changes in device, session, model, provider, or underlying operating system.
+## 13. Ethical AI doctrine is an engineering requirement
 
-## Ethical and human-centered engineering doctrine
+Adroitech Practice & Patterns / OS doctrine should be integrated throughout the AI section rather than placed in a decorative 'responsible AI' paragraph.
 
-The professional record treats ethical behavior as architecture rather than branding.
-
-Recurring principles include:
-
+Core principles:
 - human authority remains primary;
-- context should be traceable and correctable;
-- privacy and security belong inside the design;
+- context should be traceable, correctable and evidence-disciplined;
+- privacy and security belong in the architecture;
 - operational context should be portable;
-- customer-controlled state should survive provider replacement;
-- important dependencies should be visible rather than hidden;
-- systems should preserve reversibility and a practical right to exit;
-- AI should increase human capability rather than manufacture unnecessary dependency.
+- people should retain a right to exit;
+- systems should expose rather than hide important dependencies;
+- AI should increase capability, dignity and sovereignty;
+- Adroitech opposes abusive/manipulative AI patterns that create technological captivity or unnecessary dependency.
 
-This doctrine connects the earlier community/teaching work to the current AI architecture.
+## 14. Invention / IP
 
-## Invention / intellectual property
+Patent Pending — Charles Anthony Todd Jr., named inventor.
 
-Charles Anthony Todd Jr. is the named inventor associated with the filed U.S. provisional application for:
+U.S. Provisional Application No. 64/155,744:
+**Adroitech OS: Systems and Methods for Person-Specific AI Runtime Modeling, Context Resolution, Portable Human Continuity, and Distributed Person-Centered Operation.**
 
-**Adroitech OS: Systems and Methods for Person-Specific AI Runtime Modeling, Context Resolution, Portable Human Continuity, and Distributed Person-Centered Operation**
+Do not describe the application as granted/patented or as USPTO confirmation of novelty.
 
-The exact filing artifacts and their cryptographic/source identities are controlled by:
+## 15. Closing systems philosophy — the Orchestra Principle
 
-`P1/P1_FILING_ANCHOR.md`
+Working professional formulation:
 
-The technical support graph is controlled by:
+> A system should operate like an orchestra. Every component has its own role, dependencies and timing, but none exists in isolation. Systems engineering means understanding those relationships deeply enough to make the whole perform as one. The engineer is the conductor.
 
-`P1/P1_SUPPORT_MATRIX.csv`
+The user's more direct formulation captures the same organizing principle: everything has to work like an orchestra, and the systems engineer is the conductor.
 
-This dossier does not substitute for either record.
+This metaphor is not merely a tagline. It explains the career breadth: understanding dependencies across machines, networks, code, organizations, people, business operations and AI is necessary because the whole system has to perform together.
 
-## Systems philosophy
+## Living dossier maintenance rule
 
-A recurring professional formulation is the **Orchestra Principle**:
+This dossier is now maintained as a parallel output of the exhaustive patent-proof sweep.
 
-> A system should operate like an orchestra. Every component has its own role, dependencies, and timing, but none exists in isolation. Systems engineering means understanding those relationships deeply enough to make the whole perform as one. The engineer is the conductor.
+Every reviewed source must be checked for professional-dossier significance as well as patent/provenance significance. That includes Git history, historical resumes, institutional records, government records, business records, Drive originals, Gmail/business-Gmail, Gemini/Six chats, Dropbox, PDFs/decks, photographs, recommendations, websites, customer/business artifacts, build records, technical receipts, and other preserved originals.
 
-That principle explains the breadth of the record. Machines, networks, code, organizations, people, business operations, devices, and AI are treated as interacting parts of larger operating systems.
+When a source establishes or materially strengthens professional history:
 
-## Evidence classes
+1. update `DOSSIER_EVIDENCE_MAP.csv` with the source, evidence class, chronology, and affected dossier section;
+2. preserve the exact proof/source linkage in the proof corpus where appropriate;
+3. improve `PROFESSIONAL_DOSSIER.md` when the evidence supports a cleaner, stronger, more complete professional statement;
+4. preserve the long-form chronology rather than allowing current patent/AI work to erase earlier military, community, education, industrial, business, or technical history;
+5. keep the public dossier readable — evidence mechanics belong in the map and proof records, while the dossier carries the supported professional narrative;
+6. do not promote a remembered or source-stated claim to a stronger evidence class without the supporting record;
+7. do not discard a meaningful established professional fact merely because its strongest artifact has not yet been relinked — track the relink task in the evidence map.
 
-The canonical dossier distinguishes evidence by source strength:
+The objective is **progressive evidentiary completion**: the dossier becomes more complete and more precise as the exhaustive source universe is reviewed.
 
-- **PRIMARY VERIFIED** — institutional, government, transcript, corporate, or other primary record;
-- **INSTITUTIONALLY RECOVERED** — historical account or membership recovered directly through the issuing organization;
-- **CONTEMPORANEOUS DOCUMENT** — resume, email, recommendation, or artifact created close to the event;
-- **PRIMARY ARTIFACT PENDING RELINK** — a primary artifact previously supplied and used in dossier work whose original file still needs to be reattached to the current evidence rail.
+## V4 editorial rule
 
-Where a professional statement depends on a weaker source class, the proof repository should preserve that distinction rather than silently upgrading it.
+V4 should read as a professional portfolio/dossier, not a long resume. It should show increasing system scale and continuity of method:
 
-## Relationship to the patent-proof corpus
+physical systems -> information systems -> human/community systems -> business systems -> distributed infrastructure -> person-centered AI systems.
 
-The dossier answers:
+AmeriCorps receives clear recognition as a significant one-year service commitment within a longer nonprofit/community trajectory. The nonprofit philosophy must not be falsely presented as beginning with AmeriCorps.
 
-**Who built this, and what technical/human background preceded the work?**
-
-The proof corpus answers:
-
-**What exactly existed, when did it exist, what source proves it, how did it evolve, what ran in practice, and where does it map to P1?**
-
-Reviewers should use both.
+Current Adroitech systems engineering, resilient modular infrastructure, ethical AI doctrine and the long-running sovereignty/empowerment philosophy should carry through the entire dossier.
