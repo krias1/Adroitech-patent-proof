@@ -20,6 +20,8 @@ The active mission is defined in:
 
 The governing rule is **comprehensive coverage, not curated highlights**.
 
+**The exhaustive sweep starts with the user's ChatGPT Library.** Months of uploaded documents, photos, screenshots, scans, PDFs, and retained generated artifacts are treated as the first source rail, not an afterthought. See `source-rails/CHATGPT_LIBRARY.md`.
+
 Every recoverable artifact across the authorized source universe must receive a disposition. That includes Git history and preserved pre-repository / non-Git originals. Relevant evidence is mapped during extraction to the frozen P1 disclosure through:
 
 - `P1/P1_FILING_ANCHOR.md`
@@ -27,6 +29,12 @@ Every recoverable artifact across the authorized source universe must receive a 
 - `P1/SKILL_SUPPORT_INDEX.md`
 
 P1 linkage and professional-dossier enrichment are part of the extraction job itself. They are not postponed until the historical review is complete. Every source review also asks whether the source confirms, sharpens, expands, corrects, or fills a gap in the living dossier.
+
+## First source rail — ChatGPT Library
+
+The current source-order rule is: **ChatGPT Library first**, then Git, Drive, Gmail/business Gmail, Gemini/Six, Dropbox, and other preserved systems. The order is operational; evidentiary strength is determined later through cross-rail reconciliation.
+
+The Library sweep is tracked in `coverage/chatgpt-library-ledger.csv` and must continue until the Library cursor is exhausted and every recoverable item has a disposition.
 
 ## Source universe
 
@@ -108,6 +116,8 @@ ACTIVE_TASKS.md
 SCHEMA.md
 VERIFY.md
 CODEX_CONSUMER_GUIDE.md
+source-rails/
+  CHATGPT_LIBRARY.md
 P1/
   P1_FILING_ANCHOR.md
   P1_SUPPORT_MATRIX.csv
@@ -115,6 +125,7 @@ P1/
 data/
   proof_records.jsonl
 coverage/
+  chatgpt-library-ledger.csv
   ledger.csv
   commit-ledger.csv
   reviews/
