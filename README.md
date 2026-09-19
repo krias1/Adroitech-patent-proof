@@ -2,7 +2,7 @@
 
 > **AI agents / automated reviewers:** start with [`AGENTS.md`](AGENTS.md). It defines the evidence-review protocol, P1 routing, provenance rules, mutation rules, and standard review output contract.
 >
-> **Professional / inventor context:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) provides the evidence-backed professional history accompanying this corpus: military machining, IT/networking, community systems, software development, CNC/industrial automation, entrepreneurship, Adroitech systems engineering, and current person-centered AI research.
+> **Canonical living professional dossier:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) is now the actual V4 professional dossier maintained by this proof project. [`DOSSIER_EVIDENCE_MAP.csv`](DOSSIER_EVIDENCE_MAP.csv) tracks the evidence and remaining strengthening work behind each section. Future PDF/presentation editions should be generated from the living dossier rather than maintained as a separate narrative fork.
 
 Public, reproducible evidence repository for the historical development of Adroitech Logic Core, Adroitech OS, its ethical runtime architecture, human-integration methods, skills, teaching practices, sovereignty mechanisms, correction patterns, and potentially patent-relevant implementation concepts.
 
@@ -12,7 +12,7 @@ This repository exists so a technically competent third party can independently 
 
 It is an evidence corpus, not a claim that a hash by itself proves legal inventorship, patent priority, authorship, ownership, validity, novelty, or non-obviousness. Those are separate legal or scientific questions. The repository preserves and organizes evidence relevant to those questions.
 
-## Current mission: exhaustive source coverage + P1 support mapping
+## Current mission: exhaustive source coverage + P1 support mapping + living dossier
 
 The active mission is defined in:
 
@@ -26,7 +26,7 @@ Every recoverable artifact across the authorized source universe must receive a 
 - `P1/P1_SUPPORT_MATRIX.csv`
 - `P1/SKILL_SUPPORT_INDEX.md`
 
-P1 linkage is part of the extraction job itself. It is not postponed until the historical review is complete.
+P1 linkage and professional-dossier enrichment are part of the extraction job itself. They are not postponed until the historical review is complete. Every source review also asks whether the source confirms, sharpens, expands, corrects, or fills a gap in the living dossier.
 
 ## Source universe
 
@@ -103,6 +103,7 @@ Every proof record should preserve, where available:
 README.md
 AGENTS.md
 PROFESSIONAL_DOSSIER.md
+DOSSIER_EVIDENCE_MAP.csv
 ACTIVE_TASKS.md
 SCHEMA.md
 VERIFY.md
@@ -143,4 +144,4 @@ If the repository cannot answer those questions for a record, the record is inco
 
 Long-running chronological and source-rail extraction is in progress from the earliest recoverable Adroitech evidence forward.
 
-The target is **complete source disposition plus concept-level coverage plus P1 support mapping**. A persuasive sample is not considered completion.
+The target is **complete source disposition plus concept-level coverage plus P1 support mapping plus an evidence-backed living professional dossier**. A persuasive sample is not considered completion.
