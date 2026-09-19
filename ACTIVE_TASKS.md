@@ -1,4 +1,4 @@
-# Active Tasks — Patent Proof / P1 Support Mission
+# Active Tasks — Patent Proof / P1 Support / Living Dossier Mission
 
 **Effective:** 2026-09-19  
 **Primary filing anchor:** `P1-2026-09-16`  
@@ -6,7 +6,7 @@
 
 ## Mission
 
-Build a comprehensive, reproducible evidence record for the complete historical development of Adroitech OS and continuously map that evidence to the technical disclosure already contained in P1.
+Build a comprehensive, reproducible evidence record for the complete historical development of Adroitech OS, continuously map that evidence to the technical disclosure already contained in P1, and maintain the canonical living professional dossier from the same exhaustive source sweep.
 
 This is not a curated highlights project. The proof stream is responsible for **every recoverable source artifact** across the available source rails. Every artifact that can be retrieved must receive a disposition: relevant proof, protected-personalization proof, mirror/export, duplicate, superseded material, or documented exclusion with a reason.
 
@@ -48,13 +48,14 @@ The proof repository does **not** amend P1. It builds the traceable evidence map
 1. **P0 — Freeze the P1 filing anchor.** Maintain `P1/P1_FILING_ANCHOR.md` with the exact filed-artifact identities, canonical commit, blob IDs, independent hashes, and receipt status.
 2. **P0 — Populate the P1 support matrix.** `P1/P1_SUPPORT_MATRIX.csv` must contain every material P1 disclosure coordinate and accumulate linked proof IDs as the historical sweep proceeds.
 3. **P0 — Exhaustive source inventory.** Every recoverable artifact from every authorized source rail receives a coverage/disposition record.
-4. **P0 — Chronological extraction.** Continue commit-by-commit and source-by-source review from the earliest evidence forward; do not skip low-drama records.
-5. **P0 — Skill support mapping.** Maintain `P1/SKILL_SUPPORT_INDEX.md` so each personalized/modular skill is tied to P1's skill architecture and to its own conception, implementation, test, and receipt evidence.
-6. **P1 — Backfill existing proof atoms.** Existing records created before the P1-support fields were added must be mapped to P1 where applicable.
-7. **P1 — External-rail reconciliation.** Tie pre-Git and non-Git originals into the same concept chronology without falsely converting source-system dates into Git dates.
-8. **P1 — Operational evidence.** Where possible, connect design/conception records to builds, tests, successful runs, field use, device deployment, receipts, and material write-back.
-9. **P1 — Independent verification.** Preserve exact bytes, Git object identities, SHA-256, byte lengths, immutable URLs, and reproduction instructions.
-10. **P1 — Gap register.** Any P1 disclosure coordinate with weak, incomplete, conflicting, or not-yet-linked evidence stays explicitly visible until resolved.
+4. **P0 — Living dossier enrichment.** Every reviewed source is also checked for professional-history significance. Update `DOSSIER_EVIDENCE_MAP.csv` during the same pass and strengthen `PROFESSIONAL_DOSSIER.md` when the evidence materially confirms, expands, corrects, or sharpens the professional record.
+5. **P0 — Chronological extraction.** Continue commit-by-commit and source-by-source review from the earliest evidence forward; do not skip low-drama records.
+6. **P0 — Skill support mapping.** Maintain `P1/SKILL_SUPPORT_INDEX.md` so each personalized/modular skill is tied to P1's skill architecture and to its own conception, implementation, test, and receipt evidence.
+7. **P1 — Backfill existing proof atoms.** Existing records created before the P1-support fields were added must be mapped to P1 where applicable.
+8. **P1 — External-rail reconciliation.** Tie pre-Git and non-Git originals into the same concept chronology without falsely converting source-system dates into Git dates.
+9. **P1 — Operational evidence.** Where possible, connect design/conception records to builds, tests, successful runs, field use, device deployment, receipts, and material write-back.
+10. **P1 — Independent verification.** Preserve exact bytes, Git object identities, SHA-256, byte lengths, immutable URLs, and reproduction instructions.
+11. **P1 — Gap register.** Any P1 disclosure coordinate with weak, incomplete, conflicting, or not-yet-linked evidence stays explicitly visible until resolved.
 
 ## Completion standard
 
@@ -66,10 +67,11 @@ It is complete only when:
 - every relevant concept has traceable provenance and chronology;
 - every material P1 disclosure coordinate has an evidence status in the support matrix;
 - every personalized/modular skill has a support record or a documented reason why it is outside P1;
+- every material professional-dossier section has an evidence trail in `DOSSIER_EVIDENCE_MAP.csv` and the living narrative reflects the strongest established record without exposing private evidence mechanics;
 - predecessor/successor relationships and corrections are preserved;
 - protected personal evidence is represented by safe provenance rather than exposed content;
 - unresolved gaps remain explicit rather than being buried by narrative confidence.
 
 ## Operating rule
 
-As the archive is combed, the P1 support map is updated **during the same proof work**. P1 linkage is not a later cleanup exercise. Evidence extraction and P1-support classification are one integrated mission.
+As the archive is combed, the P1 support map **and the professional dossier evidence map** are updated during the same proof work. P1 linkage and dossier enrichment are not later cleanup exercises. Evidence extraction, P1-support classification, and professional-history reconstruction are one integrated mission.
