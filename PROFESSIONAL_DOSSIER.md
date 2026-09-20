@@ -2,14 +2,31 @@
 
 Updated: 2026-09-20
 Status: CANONICAL LIVING DOSSIER — maintained by the patent-proof evidence stream
+Primary life mission: POOR RIGHTEOUS TEACHER — uplift people through knowledge, dignity, possibility, and sovereignty
 Primary professional identity: SYSTEMS ENGINEER
-Co-equal ethical/cultural lineage: POOR RIGHTEOUS TEACHER BASELINE
+Engineering role in the mission: vehicle for building capability, independence, and durable human systems
 
 **Canonical living location:** `krias1/Adroitech-patent-proof.` / `PROFESSIONAL_DOSSIER.md`  
 **V4 source checkpoint:** `krias1/Adroitech-Logic-Core` / `Adroitech rollout/PROFESSIONAL_DOSSIER_V4_WORKING_RENDER_2026-09-16.md` / blob `516f470b06547842a4284ffb3c237ec9cb3d7ad4`  
 **Canonical evidence source checkpoint:** `Adroitech rollout/PROFESSIONAL_DOSSIER_CANONICAL_EVIDENCE_2026-09-16.md` / blob `4c6133297687072bc1efbc3cd3928246af060977`
 
 This root file is now the **actual professional dossier**. Future presentation exports and eventual PDF editions should be generated from this living source rather than creating a separate narrative fork.
+
+## Mission hierarchy — canonical framing
+
+This dossier must preserve the mission hierarchy in the following order:
+
+> **Charles Anthony Todd Jr. is first a Poor Righteous Teacher whose life mission is to uplift people through knowledge, dignity, possibility, and sovereignty. He is also a systems engineer, and engineering is one of the principal vehicles through which he carries out that mission.**
+
+The mission is not subordinate to the profession.
+
+The professional identity should therefore never be flattened into "engineer who also cares about people." The correct relationship is the reverse:
+
+**Poor Righteous Teacher mission -> systems engineering as vehicle -> technology/business/AI as implementation domains.**
+
+The mission is to increase human capability rather than dependence: help people understand their own worth and ability, give them usable knowledge and structure, preserve their dignity, increase their control over their own lives, and pass knowledge forward.
+
+Adroitech is the vehicle. Technology is the method. Human capability, dignity, and sovereignty are the objective.
 
 ## V4 thesis
 
@@ -35,9 +52,9 @@ Supporting identity: technologist, entrepreneur, inventor, independent researche
 
 Core positioning: a systems engineer who works across physical machines, networks, software, automation, business infrastructure, community operations, and AI systems. The defining capability is integration — understanding technical and human dependencies well enough to make the whole operating environment function.
 
-### Co-equal ethical identity — Poor Righteous Teacher baseline
+### Foundational ethical identity — Poor Righteous Teacher baseline
 
-The professional record should not treat Charles's **Poor Righteous Teacher** baseline as a side note beneath the engineering identity. For Charles, it is co-equal in importance: the engineering describes **how he builds**; the Poor Righteous Teacher lineage describes **why he believes knowledge, skill, and power should be used the way he uses them**.
+The professional record should not treat Charles's **Poor Righteous Teacher** baseline as a side note beneath the engineering identity. It is the mission-level foundation. The engineering describes **how he builds**; the Poor Righteous Teacher lineage describes **why he builds, who the work is for, and what human outcome the work is supposed to produce**.
 
 Preserved operator-authored language repeatedly centers:
 - integrity;
