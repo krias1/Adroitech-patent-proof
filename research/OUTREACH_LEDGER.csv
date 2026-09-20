@@ -1,0 +1,4 @@
+date_utc,target,organization,channel,artifact_or_link,ask,status,response,next_action,notes
+2026-07-26,Public support and trust-safety routing,OpenAI,email,,Internal routing to model behavior / safety research,SENT_NO_SUBSTANTIVE_RESEARCH_RESPONSE,,,Historical verified outreach; preserve as prior-wave baseline
+2026-07-26,Responsible AI and product-support routing,Google,email,,Internal routing to responsible AI / Gemini safety research,SENT_NO_SUBSTANTIVE_RESEARCH_RESPONSE,,,Historical verified outreach; preserve as prior-wave baseline
+2026-09-20,Campaign reset,Adroitech patent proof repository,GitHub,OUTREACH_CAMPAIGN_2026-09-20.md,Move from gatekeeper-dependent outreach to citable/reproducible distribution,ACTIVE,,Create DOI/release and challenge package,
