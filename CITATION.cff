@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research corpus, please cite the repository and the versioned release or DOI when available."
+title: "Adroitech Patent Proof Repository: Human Integration with AI, Provenance, and Correction"
+type: dataset
+authors:
+  - family-names: "Todd"
+    given-names: "Charles Anthony Jr."
+repository-code: "https://github.com/krias1/Adroitech-patent-proof."
+url: "https://github.com/krias1/Adroitech-patent-proof."
+date-released: "2026-09-20"
+abstract: "Public reproducible evidence corpus and living research thesis covering Adroitech Logic Core, human-AI continuity, correction, provenance, representation reification, and auditable AI failure records."
+keywords:
+  - human-AI interaction
+  - AI accountability
+  - AI memory
+  - provenance
+  - correction recurrence
+  - human-centered AI
+  - reproducibility
+license: "NOASSERTION"
