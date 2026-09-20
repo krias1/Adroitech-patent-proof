@@ -1,6 +1,6 @@
 # Charles Anthony Todd Jr. — Professional Dossier — Living V4
 
-Updated: 2026-09-19
+Updated: 2026-09-20
 Status: CANONICAL LIVING DOSSIER — maintained by the patent-proof evidence stream
 Primary identity: SYSTEMS ENGINEER
 
@@ -16,7 +16,9 @@ Charles Anthony Todd Jr.'s professional history is best understood as a nearly t
 
 The trajectory is **concurrent and cumulative, not a late career pivot**.
 
-Charles did not become a systems engineer because of the current AI wave. His systems practice predates it by well over a decade and is rooted in overlapping physical, digital, organizational, and human systems work: early computing/IT and networking, machining and industrial production, software/programming study, community/nonprofit operations, entrepreneurship, customer web/IT work, aerospace/CNC systems, resilient infrastructure, and distributed business systems. Human-centered AI is the newest domain to which that established systems-engineering style has been adapted.
+Charles did not become a systems engineer because of the current AI wave. He is a long-practicing systems engineer whose systems practice predates the present AI phase by well over a decade and is rooted in overlapping physical, digital, organizational, and human systems work: early computing/IT and networking, machining and industrial production, software/programming study, community/nonprofit operations, entrepreneurship, customer web/IT work, aerospace/CNC systems, resilient infrastructure, and distributed business systems. Human-centered AI is the newest domain to which that established systems-engineering style has been adapted.
+
+**Professional framing guardrail:** AI did not teach Charles the systems method. AI became the newest system to which he applied a method already developed through years of building, repairing, integrating, troubleshooting, teaching, operating, and documenting real systems under real constraints.
 
 The recurring pattern is therefore better represented as overlapping rails rather than a sequential ladder:
 
@@ -37,6 +39,10 @@ Core positioning: a systems engineer who works across physical machines, network
 The current AI work must not be framed as the event that created Charles's systems-engineering identity. The evidence-backed professional record already spans more than a decade of systems-oriented work before the present AI phase. AI introduced a new substrate and a new class of human-integration problems; Charles adapted an existing engineering method to that substrate.
 
 That distinction matters publicly. The correct story is **experienced systems engineer applies a long-standing integration method to AI**, not **AI enthusiast recently becomes a systems engineer**.
+
+A concise public formulation is:
+
+> **Charles Anthony Todd Jr. is a long-practicing systems engineer and builder who adapted an established evidence-first, field-tested engineering method to human-AI systems.**
 
 ## 2. The long-run philosophy — sovereignty through structure
 
@@ -156,6 +162,8 @@ This section must be substantially deeper than earlier dossier versions.
 
 The current work is not a desk-only engineering practice. Charles routinely combines design and systems reasoning with physical execution: building and repairing hardware, deploying servers and networks, cleaning/facility work, moving equipment, troubleshooting in the field, documenting evidence, handling business operations, and conducting substantial **pro se** legal/administrative work when circumstances require it.
 
+That matters to the professional identity. The systems method has been exercised while functioning as builder, cleaner/facility operator, business owner, field technician, document/evidence manager, and pro se litigant — often under resource scarcity, mobility, interruption, and periods without a stable desk or ideal workspace. The architecture is therefore shaped by field reality rather than only by laboratory or office assumptions.
+
 Public materials should not call Charles a licensed lawyer or attorney unless such a credential independently exists. The accurate description is that he has performed extensive pro se litigation, filing, evidence, and procedural work while simultaneously operating the business and technical stack.
 
 This field-heavy reality is relevant to the engineering thesis because the architecture is repeatedly tested under mobility, scarcity, interruptions, physical labor, time pressure, and non-ideal environments rather than only at a workstation.
@@ -196,6 +204,14 @@ Current research and engineering includes:
 ## 13. Ethical AI doctrine is an engineering requirement
 
 Adroitech Practice & Patterns / OS doctrine should be integrated throughout the AI section rather than placed in a decorative 'responsible AI' paragraph.
+
+### Poor Righteous Teacher ethical lineage
+
+Charles's own preserved AI-training and manifesto language repeatedly names a **Poor Righteous Teacher** baseline: integrity, dignity, uplifting peers, knowledge of self, sovereignty, and helping for the stability of the circle rather than treating people as instruments for financial gain. This is an operator-authored ethical lineage, not a claim that a musical or cultural source independently proves the later architecture.
+
+The professional significance is that the language gives an explicit name to values already visible in the longer service/teaching/business record: teach what you know, increase another person's capability, preserve dignity, reduce dependency, and treat knowledge as something to pass forward rather than hoard.
+
+Current Logic Core descendants convert that value system into engineering requirements: benefit of the doubt, no static human character scoring, correction authority, right to exit, evidence discipline, human authority, dignity-preserving interpretation, and customer-controlled continuity.
 
 Core principles:
 - human authority remains primary;
