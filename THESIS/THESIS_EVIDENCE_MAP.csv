@@ -11,3 +11,4 @@ thesis_section,claim_or_topic,status,evidence_role,strongest_current_source,proo
 "10","Evaluation methods","developing","research_method","Thesis project + peer-review venue matrix","","","Define measurable continuity, resume-cost, correction, bounded-context, and portability tests"
 "11","Limitations and counterarguments","developing","critical_analysis","Peer-review risk register; privacy/IP controls","","","Continuously add contrary evidence, failure cases, and unresolved limits"
 "12","Implications","developing","synthesis","Living proof corpus","","","Refine only after evidence/evaluation strengthens"
+"1;2;3;6;10;11","AI reviewer misinterpretation, correction recurrence, and reconstruction burden","active","field_observation_plus_failure_case","reviews/2026-09-20_AI_REVIEWER_FAILURE_ASSESSMENT.md","","","Use as a qualitative AI failure case; do not treat as independent proof of the human researcher's biography"
