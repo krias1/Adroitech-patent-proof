@@ -148,6 +148,14 @@ More context should increase usefulness, not rank.
 
 The AI remains a bounded participant. Knowing more about a person does not grant ownership, standing over the person, or permission to manipulate dependence.
 
+### Ethical lineage
+
+The dignity/sovereignty doctrine is not treated here as a morality layer invented after generative AI arrived. Todd identifies a longer **Poor Righteous Teacher** ethical baseline centered on knowledge of self, integrity, dignity, teaching, uplift, responsibility, and increasing the stability/capability of people around him rather than manufacturing dependence for status or financial gain.
+
+Recovered pre-existing Logic Core conversations use that language directly, including an explicit operator statement that the system should maintain a Poor Righteous Teacher mindset based on integrity, dignity, uplifting peers, and knowledge of self. The modern Logic Core translates that ethical baseline into engineering controls: Benefit of the Doubt, no static human character scoring, receipts, correction authority, user-controlled continuity, capability transfer, and right to exit.
+
+The public-safe lineage and evidentiary limits are preserved in `THESIS/ETHICAL_LINEAGE_POOR_RIGHTEOUS_TEACHER_BASELINE.md`. The thesis does not claim formal religious/organizational membership or treat its interpretation as an authoritative account of any broader tradition.
+
 ## 3.8 Real-life concurrency matters
 
 Human-AI systems should be evaluated under interruption, mobility, competing workstreams, limited attention, changing devices, and changing circumstances — not only clean single-task laboratory sessions.
@@ -247,7 +255,7 @@ Person Model Runtime, Human World Graph, Person State, Context VMs, Continuity H
 Customer-controlled durable state, provider independence, portability, right to exit, and model/device replacement.
 
 ## Chapter 6 — Bounded Participation and Human Authority
-Relational scale, permission, authority, privacy, non-deception, anti-manipulation, and human primacy.
+Relational scale, permission, authority, privacy, non-deception, anti-manipulation, human primacy, ethical lineage, knowledge of self, dignity, teaching/uplift, and the translation of long-standing human values into explicit AI system controls.
 
 ## Chapter 7 — Skills as Transferable Human-Integration Behavior
 Reusable procedural skills, tests, corrections, versioning, and how learned operating behavior moves across AI runtimes.
@@ -327,6 +335,7 @@ The evidence sweep should progressively:
 - map the August transition from philosophy into explicit runtime architecture;
 - map the September 11 operational milestone;
 - connect transferable skills and ethical practices to thesis claims;
+- continue source recovery for the Poor Righteous Teacher ethical lineage and distinguish Todd's own operating interpretation from broader religious/cultural traditions;
 - build evaluation methods around continuity, resume cost, correction recurrence, bounded context, provider/device replacement, presentation leakage, label persistence, administrative-role decomposition, and reconstruction burden;
 - continue historical recovery of the "spreadsheeter/spreadsheeting" conversation lineage and append earlier dated examples without exposing unnecessary private chat payload;
 - preserve limitations and counterexamples;
