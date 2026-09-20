@@ -14,9 +14,13 @@ This root file is now the **actual professional dossier**. Future presentation e
 
 Charles Anthony Todd Jr.'s professional history is best understood as a nearly two-decade-plus systems trajectory, not a collection of unrelated jobs. The recurring operating philosophy is to understand dependencies deeply enough to build useful structure around them: identify the real constraint, intervene where action is needed, give people or organizations usable capability, reduce unnecessary dependency, preserve recoverability, and increase sovereignty.
 
-The trajectory is:
+The trajectory is **concurrent and cumulative, not a late career pivot**.
 
-machining -> computing -> networking -> programming -> automation -> community systems -> entrepreneurship -> aerospace/industrial systems -> resilient infrastructure -> distributed business systems -> human-centered AI systems.
+Charles did not become a systems engineer because of the current AI wave. His systems practice predates it by well over a decade and is rooted in overlapping physical, digital, organizational, and human systems work: early computing/IT and networking, machining and industrial production, software/programming study, community/nonprofit operations, entrepreneurship, customer web/IT work, aerospace/CNC systems, resilient infrastructure, and distributed business systems. Human-centered AI is the newest domain to which that established systems-engineering style has been adapted.
+
+The recurring pattern is therefore better represented as overlapping rails rather than a sequential ladder:
+
+**computing / IT + machining / industrial systems + programming / software + networks / infrastructure + community / organizational systems + entrepreneurship -> progressively broader systems integration -> human-centered AI and continuity architecture.**
 
 The public dossier is presentation-oriented. Do not insert `UNKNOWN`, `NEEDS VERIFY`, scrape-status chatter, or pending-relink language into the public narrative. Evidence gaps and strengthening work belong in `DOSSIER_EVIDENCE_MAP.csv`. The exhaustive proof sweep must continuously test recovered material against this dossier and sharpen, expand, correct, or substantiate the narrative when the evidence supports doing so.
 
@@ -27,6 +31,12 @@ Primary title: **SYSTEMS ENGINEER**.
 Supporting identity: technologist, entrepreneur, inventor, independent researcher, human-centered systems builder.
 
 Core positioning: a systems engineer who works across physical machines, networks, software, automation, business infrastructure, community operations, and AI systems. The defining capability is integration — understanding technical and human dependencies well enough to make the whole operating environment function.
+
+### AI adaptation, not professional reinvention
+
+The current AI work must not be framed as the event that created Charles's systems-engineering identity. The evidence-backed professional record already spans more than a decade of systems-oriented work before the present AI phase. AI introduced a new substrate and a new class of human-integration problems; Charles adapted an existing engineering method to that substrate.
+
+That distinction matters publicly. The correct story is **experienced systems engineer applies a long-standing integration method to AI**, not **AI enthusiast recently becomes a systems engineer**.
 
 ## 2. The long-run philosophy — sovereignty through structure
 
@@ -141,6 +151,14 @@ or
 ## 11. Current Adroitech LLC systems engineering
 
 This section must be substantially deeper than earlier dossier versions.
+
+### Field engineer / operator reality
+
+The current work is not a desk-only engineering practice. Charles routinely combines design and systems reasoning with physical execution: building and repairing hardware, deploying servers and networks, cleaning/facility work, moving equipment, troubleshooting in the field, documenting evidence, handling business operations, and conducting substantial **pro se** legal/administrative work when circumstances require it.
+
+Public materials should not call Charles a licensed lawyer or attorney unless such a credential independently exists. The accurate description is that he has performed extensive pro se litigation, filing, evidence, and procedural work while simultaneously operating the business and technical stack.
+
+This field-heavy reality is relevant to the engineering thesis because the architecture is repeatedly tested under mobility, scarcity, interruptions, physical labor, time pressure, and non-ideal environments rather than only at a workstation.
 
 Current documented operations include:
 - technology consulting and systems architecture;
