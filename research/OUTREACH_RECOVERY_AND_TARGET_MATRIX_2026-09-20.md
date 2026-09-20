@@ -313,6 +313,21 @@ After DOI + first test result:
 - Ars Technica;
 - additional carefully selected AI/HCI journalists.
 
+
+## Current official source anchors checked 2026-09-20
+
+- FAccT 2027 CFP: `https://facctconference.org/2027/cfp.html`
+- CHI 2027 main dates: `https://chi2027.acm.org/`
+- CHI 2027 Posters: `https://chi2027.acm.org/authors/posters/`
+- CHI 2027 Interactive Demos: `https://chi2027.acm.org/authors/interactive-demos/`
+- IUI 2027 CFP: `https://iui.acm.org/2027/call-for-papers/`
+- IUI 2027 Posters & Demos: `https://iui.acm.org/2027/call-for-posters-demos/`
+- DIS 2027 CFP: `https://dis.acm.org/2027/call-for-papers/`
+- IEEE Spectrum freelancer guidelines: `https://spectrum.ieee.org/guidelines-freelancers`
+- Ars Technica contact: `https://arstechnica.com/contact-us/`
+- Ars Technica news tips: `https://arstechnica.com/news-tips/`
+- Communications of the ACM: `https://cacm.acm.org/`
+
 ## 10. Campaign operating rule
 
 Do not make Charles become the outreach clerk.
