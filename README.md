@@ -6,6 +6,8 @@
 >
 > **Canonical living thesis:** [`THESIS/README.md`](THESIS/README.md) is the evidence-backed Human Integration with AI thesis surface. [`THESIS/THESIS_EVIDENCE_MAP.csv`](THESIS/THESIS_EVIDENCE_MAP.csv) tracks which sources support each chapter, claim, hypothesis, limitation, and research gap.
 >
+> **Community early access:** [`COMMUNITY_EARLY_ACCESS.md`](COMMUNITY_EARLY_ACCESS.md) is the short front door for cultural and community reviewers invited before the broader professional rollout.
+>
 > **Public outreach / media kit:** [`PUBLIC_OUTREACH_KIT.md`](PUBLIC_OUTREACH_KIT.md) turns the AI-failure, correction, spreadsheeting, dignity, and receipt-driven provenance work into a public-facing story without overstating what the evidence proves.
 >
 > **Frozen cultural/intellectual originals:** [`ORIGINALS/CULTURAL_LINEAGE/README.md`](ORIGINALS/CULTURAL_LINEAGE/README.md) and [`ORIGINAL_SOURCE_MANIFEST.csv`](ORIGINALS/CULTURAL_LINEAGE/ORIGINAL_SOURCE_MANIFEST.csv) pin the original Human Condition / Poor Righteous Teacher / music-as-teaching source family without rewriting or academic normalization.
