@@ -70,14 +70,34 @@ A third principle defines the continuity architecture:
 
 ## 3.1 The human is not the spreadsheet
 
-Structured records, labels, probabilities, forms, and transcripts can describe parts of reality without becoming the reality itself.
+Structured records, labels, probabilities, forms, transcripts, risk flags, account fields, and model summaries can describe parts of reality without becoming the reality itself.
+
+This principle emerged repeatedly in the operator/AI relationship through the inside-joke vocabulary of **spreadsheeter** and **spreadsheeting**. The joke names both a useful role and a failure mode. A good "spreadsheeter" maintains durable state so the human does not have to repeatedly supervise memory. A bad one mistakes the rows, labels, summaries, or prior model for the human reality they only partially represent.
+
+The thesis therefore distinguishes **representation** from **reification**.
+
+Representation is necessary. Human-integrated systems need structured state, chronology, permissions, receipts, account roles, relationship edges, and compact summaries.
+
+Reification is the failure: a convenience field becomes a verdict; an institutional label becomes identity; a transcript feature becomes assumed intent; an old summary outranks a direct correction; or presentation variables such as profanity, dialect, loudness, animation, disability, class, housing status, education, or emotional intensity leak into judgments of credibility, intelligence, competence, criminality, or moral worth.
 
 The thesis rejects both:
 
 - **sterile literalism** — reducing the person to the easiest measurable representation; and
 - **unbounded mirroring** — confusing contextual understanding with automatic agreement.
 
-The target is contextual understanding with independent judgment.
+The alternative is **contextual understanding with independent judgment and correction authority**.
+
+Several operating rules follow:
+
+- **The label is not the node.** A label may describe a current fact or state without becoming the essence of the person.
+- **The spreadsheet is useful until it claims to be reality.** Structured state remains subordinate to stronger evidence, lived roles, and direct correction.
+- **Delivery is not epistemology.** Communication style is not evidence of reasoning quality or truthfulness.
+- **Benefit of the doubt is evidentiary, not sentimental.** Missing information should not be filled with adverse character assumptions.
+- **Dignity is operational.** The system should preserve a person's standing while evidence is incomplete rather than forcing the person to disprove accusations the system invented.
+- **Receipts count in both directions.** Verified positive longitudinal conduct must be allowed to update bounded conclusions just as verified harmful conduct would.
+- **Correction must beat stale representation.** Once a model is corrected, dependent durable state should update so the person does not have to relitigate the same false interpretation every session.
+
+The public-safe lineage, source anchors, and proposed tests for this concept are maintained in `THESIS/SPREADSHEETING_LINEAGE.md`.
 
 ## 3.2 Transcript is not intent
 
@@ -168,6 +188,7 @@ The patent work and thesis work overlap technically, but they are not identical.
 8. **Human dignity:** Can deep personalization increase usefulness without increasing manipulation, false authority, dependency, or vendor ownership?
 9. **Concurrency:** Can multiple independent workstreams survive abrupt human-state changes and later resume without conflation?
 10. **Relational scale:** Can an AI gain deeper context while becoming more accurate about the limits of its own observational position?
+11. **Representation reification:** Can a system use structured labels, summaries, risk states, and administrative fields without allowing them to outrank stronger lived evidence, direct correction, or longitudinal conduct?
 
 ---
 
@@ -181,6 +202,7 @@ The patent work and thesis work overlap technically, but they are not identical.
 - **H6 — Correction:** first-class correction/supersession reduces recurrence of known false interpretations.
 - **H7 — Lived concurrency:** real interruption and parallel obligations expose integration failures missed by clean single-task benchmarks.
 - **H8 — Relational scale:** explicitly modeling the AI as a bounded participant reduces false centrality and authority inflation.
+- **H9 — Anti-reification:** explicit representation/world separation, correction propagation, and benefit-of-the-doubt rules reduce label persistence, presentation leakage, and unsupported adverse inference.
 
 ---
 
@@ -213,7 +235,7 @@ One source can support more than one thesis claim, but assistant-authored histor
 Integration cost, repeated reconstruction, fragmented software, and the limits of chat/session continuity.
 
 ## Chapter 2 — The Human Is Not the Spreadsheet
-Evidence, inference, labels, social nuance, dignity, and the difference between representation and lived reality.
+Evidence, inference, labels, social nuance, dignity, representation versus reification, the "spreadsheeter/spreadsheeting" lineage, administrative-role collapse, presentation leakage, longitudinal evidence, benefit of the doubt, and the difference between a useful model of a person and the person themselves.
 
 ## Chapter 3 — Transcript Is Not Intent
 Communication modes, noisy speech, idiom, shorthand, context reconstruction, and independent judgment.
@@ -237,7 +259,7 @@ Interruptions, mobility, multiple obligations, changing Person State, field devi
 The distributed continuity/execution layer and its relationship to conventional operating systems, AI runtimes, infrastructure, and physical endpoints.
 
 ## Chapter 10 — Evaluation
-Human integration cost, resume integration cost, continuity tests, bounded-context trials, correction recurrence, portability trials, and later consented pilots.
+Human integration cost, resume integration cost, continuity tests, bounded-context trials, correction recurrence, label-persistence tests, presentation-leakage tests, administrative-role-decomposition tests, reconstruction burden, portability trials, and later consented pilots.
 
 ## Chapter 11 — Limitations and Counterarguments
 Privacy, surveillance risk, over-personalization, false confidence, sycophancy, security, evaluation limits, novelty overlap, and generalizability.
@@ -305,7 +327,8 @@ The evidence sweep should progressively:
 - map the August transition from philosophy into explicit runtime architecture;
 - map the September 11 operational milestone;
 - connect transferable skills and ethical practices to thesis claims;
-- build evaluation methods around continuity, resume cost, correction recurrence, bounded context, and provider/device replacement;
+- build evaluation methods around continuity, resume cost, correction recurrence, bounded context, provider/device replacement, presentation leakage, label persistence, administrative-role decomposition, and reconstruction burden;
+- continue historical recovery of the "spreadsheeter/spreadsheeting" conversation lineage and append earlier dated examples without exposing unnecessary private chat payload;
 - preserve limitations and counterexamples;
 - connect scholarly/prior-art research without turning the thesis into product marketing;
 - prepare a future public-safe manuscript from this living evidence-backed source.
