@@ -2,7 +2,8 @@
 
 Updated: 2026-09-20
 Status: CANONICAL LIVING DOSSIER — maintained by the patent-proof evidence stream
-Primary identity: SYSTEMS ENGINEER
+Primary professional identity: SYSTEMS ENGINEER
+Co-equal ethical/cultural lineage: POOR RIGHTEOUS TEACHER BASELINE
 
 **Canonical living location:** `krias1/Adroitech-patent-proof.` / `PROFESSIONAL_DOSSIER.md`  
 **V4 source checkpoint:** `krias1/Adroitech-Logic-Core` / `Adroitech rollout/PROFESSIONAL_DOSSIER_V4_WORKING_RENDER_2026-09-16.md` / blob `516f470b06547842a4284ffb3c237ec9cb3d7ad4`  
@@ -33,6 +34,23 @@ Primary title: **SYSTEMS ENGINEER**.
 Supporting identity: technologist, entrepreneur, inventor, independent researcher, human-centered systems builder.
 
 Core positioning: a systems engineer who works across physical machines, networks, software, automation, business infrastructure, community operations, and AI systems. The defining capability is integration — understanding technical and human dependencies well enough to make the whole operating environment function.
+
+### Co-equal ethical identity — Poor Righteous Teacher baseline
+
+The professional record should not treat Charles's **Poor Righteous Teacher** baseline as a side note beneath the engineering identity. For Charles, it is co-equal in importance: the engineering describes **how he builds**; the Poor Righteous Teacher lineage describes **why he believes knowledge, skill, and power should be used the way he uses them**.
+
+Preserved operator-authored language repeatedly centers:
+- integrity;
+- dignity;
+- uplifting peers;
+- knowledge of self;
+- sovereignty;
+- teaching and passing knowledge forward;
+- using capability for the stability of the circle rather than reducing every human relationship to financial gain.
+
+This is not merely a branding phrase and should not be flattened into generic corporate "values" language. It is a cultural and ethical lineage Charles explicitly carried into the Human Condition & Social Nuance work and later into Adroitech's runtime rules.
+
+Public materials should state this with respect and precision. They should not infer or claim a formal religious, organizational, or membership identity that the evidence does not independently establish. The supported claim is that Charles explicitly identifies the **Poor Righteous Teacher mindset/baseline** as a foundational ethical influence and has repeatedly translated those values into teaching, service, engineering, business, and AI-system design.
 
 ### AI adaptation, not professional reinvention
 
