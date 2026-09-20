@@ -33,6 +33,12 @@ The stronger story is observable behavior plus receipts.
 
 ## Existing proof package
 
+Recovered prior outreach/publication planning is now consolidated in:
+
+- `research/OUTREACH_RECOVERY_AND_TARGET_MATRIX_2026-09-20.md`
+
+That matrix preserves the July 26 OpenAI/Google outreach, the older CHI/FAccT/IUI/CSCW/DIS/TOCHI/journal rails, current verified deadlines, and current practitioner/media routes.
+
 Core public artifacts:
 - `README.md`
 - `PUBLIC_OUTREACH_KIT.md`
@@ -49,6 +55,19 @@ Key public concepts:
 - representation must not outrank stronger lived evidence;
 - when reality contradicts the model, update the model;
 - trust is weaker than provenance.
+
+
+## Professional identity rule
+
+Publicity must not accidentally rewrite Charles Todd as a recent AI enthusiast who became a systems engineer during the generative-AI boom.
+
+Correct framing:
+
+> **Decade-plus systems engineer; AI is the newest domain to which an established physical/digital/organizational systems practice has been adapted.**
+
+The canonical professional dossier supports a broader nearly two-decade-plus systems trajectory.
+
+Field reality also matters: the engineering practice includes physical building/repair, infrastructure deployment, facility/cleaning work, mobile field operations, business execution, and substantial pro se legal/administrative work. Do not falsely imply a licensed-attorney credential.
 
 ## Campaign lanes
 
