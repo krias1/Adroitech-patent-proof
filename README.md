@@ -5,6 +5,8 @@
 > **Canonical living professional dossier:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) is maintained by this proof project, with [`DOSSIER_EVIDENCE_MAP.csv`](DOSSIER_EVIDENCE_MAP.csv) underneath it.
 >
 > **Canonical living thesis:** [`THESIS/README.md`](THESIS/README.md) is the evidence-backed Human Integration with AI thesis surface. [`THESIS/THESIS_EVIDENCE_MAP.csv`](THESIS/THESIS_EVIDENCE_MAP.csv) tracks which sources support each chapter, claim, hypothesis, limitation, and research gap.
+>
+> **Public outreach / media kit:** [`PUBLIC_OUTREACH_KIT.md`](PUBLIC_OUTREACH_KIT.md) turns the AI-failure, correction, spreadsheeting, dignity, and receipt-driven provenance work into a public-facing story without overstating what the evidence proves.
 
 Public, reproducible evidence repository for the historical development of Adroitech Logic Core, Adroitech OS, its ethical runtime architecture, human-integration methods, skills, teaching practices, sovereignty mechanisms, correction patterns, and potentially patent-relevant implementation concepts.
 
