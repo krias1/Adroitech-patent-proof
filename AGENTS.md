@@ -44,16 +44,20 @@ Read these files in this order unless the user's question is narrower:
 4. `ACTIVE_TASKS.md` — current proof/dossier/thesis mission.
 5. `SOURCE_BOUNDARY.md` — public corpus vs. maintainer-only private upstream sources.
 6. `P1/P1_FILING_ANCHOR.md` — frozen P1 artifact set.
-7. `P1/P1_SUPPORT_MATRIX.csv` — P1 disclosure coordinates and linked evidence.
-8. `P1/SKILL_SUPPORT_INDEX.md` — modular-skill evidence map.
-9. `DOSSIER_EVIDENCE_MAP.csv` — professional-history support map.
-10. `THESIS/THESIS_EVIDENCE_MAP.csv` — thesis support and research-gap map.
-11. `SCHEMA.md` — proof-record semantics.
-12. `VERIFY.md` — independent reproduction procedure.
-13. `data/proof_records.jsonl` — granular proof atoms.
-14. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — coverage status.
-15. `coverage/reviews/` — source-specific review packets.
-16. `research/` — external research/prior-art records.
+7. `P1/NONPROVISIONAL_READINESS.md` — patent CYA / filing and examination checkbox control.
+8. `P1/NONPROVISIONAL_CLAIM_READINESS.csv` — claim-by-claim §101 / §102 / §103 / §112 / priority / inventorship / disclosure status.
+9. `P1/P1_SUPPORT_MATRIX.csv` — P1 disclosure coordinates and linked evidence.
+10. `P1/SKILL_SUPPORT_INDEX.md` — modular-skill evidence map.
+11. `P1/MATERIAL_INFORMATION_REGISTER.csv` — prior-art / candor review queue.
+12. `P1/PUBLIC_DISCLOSURE_REGISTER.csv` — disclosure and possible-new-matter control.
+13. `DOSSIER_EVIDENCE_MAP.csv` — professional-history support map.
+14. `THESIS/THESIS_EVIDENCE_MAP.csv` — thesis support and research-gap map.
+15. `SCHEMA.md` — proof-record semantics.
+16. `VERIFY.md` — independent reproduction procedure.
+17. `data/proof_records.jsonl` — granular proof atoms.
+18. `coverage/ledger.csv` and `coverage/commit-ledger.csv` — coverage status.
+19. `coverage/reviews/` — source-specific review packets.
+20. `research/` — external research/prior-art records.
 
 Do **not** attempt to enter the maintainer's private ChatGPT Library, private chats, email, cloud storage, or local accounts. Private upstream material may be used by the maintainer to strengthen the corpus, but the repository is the reviewer-facing evidence system.
 
@@ -214,6 +218,42 @@ Procedure:
 4. Keep external-source claims distinct from internal proof facts.
 5. Do not convert differentiation evidence into a patentability conclusion.
 
+## I. Nonprovisional readiness / patent-checkbox review
+
+Question form:
+
+- "Are we ready for the nonprovisional?"
+- "Does this claim hit every patent checkbox?"
+- "What can an examiner reject this claim on?"
+- "What legal/evidence gaps remain?"
+
+Procedure:
+
+1. Start with `P1/NONPROVISIONAL_READINESS.md`.
+2. Open `P1/NONPROVISIONAL_CLAIM_READINESS.csv`.
+3. For each actual claim and material limitation, map:
+   - §101 statutory category, utility, and eligibility;
+   - §102 novelty;
+   - §103 nonobviousness;
+   - §112(a) written description, enablement, and best mode;
+   - §112(b) definiteness;
+   - §112(f) corresponding structure/algorithm when applicable;
+   - P1 priority support;
+   - figure support;
+   - human inventorship;
+   - material-information / candor review;
+   - public-disclosure / new-matter review.
+4. Follow `P1/P1_SUPPORT_MATRIX.csv` to the exact P1 coordinates.
+5. Follow proof IDs to conception, implementation, test, correction, and receipt evidence.
+6. Update `P1/MATERIAL_INFORMATION_REGISTER.csv` for potentially material contrary/prior-art information.
+7. Update `P1/PUBLIC_DISCLOSURE_REGISTER.csv` for public technical disclosures.
+8. Never mark a legal checkbox complete merely because the repository contains a lot of evidence.
+9. Never claim issuance, validity, novelty, nonobviousness, priority entitlement, or inventorship as a legal conclusion unless that conclusion is actually established through the proper legal process.
+
+Core rule:
+
+> Every claim gets every checkbox. Every checkbox gets evidence, an explicit gap, or a filing action.
+
 ---
 
 # 3. Evidence hierarchy
@@ -312,13 +352,16 @@ When modifying this repository:
 5. do not delete contradictory evidence because a newer interpretation is preferred;
 6. update the appropriate coverage ledger;
 7. update the P1 support matrix during the same review pass when the evidence is P1-relevant;
-8. update the skill index during the same review pass when a skill is implicated;
-9. update `DOSSIER_EVIDENCE_MAP.csv` during the same review pass when professional-history evidence is implicated;
-10. update `PROFESSIONAL_DOSSIER.md` when newly established evidence materially improves the professional narrative;
-11. update `THESIS/THESIS_EVIDENCE_MAP.csv` when evidence materially affects the thesis;
-12. update `THESIS/README.md` when established evidence materially improves the research narrative;
-13. use commit messages that state the evidence operation performed;
-14. return the real resulting commit SHA.
+8. update `P1/NONPROVISIONAL_CLAIM_READINESS.csv` when evidence changes a claim-level §101 / §102 / §103 / §112 / priority / inventorship / disclosure status;
+9. update `P1/MATERIAL_INFORMATION_REGISTER.csv` when a potentially material reference, contrary fact, or patentability-pressure source is identified;
+10. update `P1/PUBLIC_DISCLOSURE_REGISTER.csv` when a public technical disclosure event is verified;
+11. update the skill index during the same review pass when a skill is implicated;
+12. update `DOSSIER_EVIDENCE_MAP.csv` during the same review pass when professional-history evidence is implicated;
+13. update `PROFESSIONAL_DOSSIER.md` when newly established evidence materially improves the professional narrative;
+14. update `THESIS/THESIS_EVIDENCE_MAP.csv` when evidence materially affects the thesis;
+15. update `THESIS/README.md` when established evidence materially improves the research narrative;
+16. use commit messages that state the evidence operation performed;
+17. return the real resulting commit SHA.
 
 A review is not complete merely because a Markdown narrative was added. Machine-readable/index records must stay synchronized.
 
@@ -393,6 +436,9 @@ Do not invent near-synonyms when writing structured records.
 | "Improve/fill gaps in the professional dossier" | `PROFESSIONAL_DOSSIER.md` + `DOSSIER_EVIDENCE_MAP.csv` |
 | "What is the current mission?" | `ACTIVE_TASKS.md` |
 | "What exactly was P1?" | `P1/P1_FILING_ANCHOR.md` |
+| "Are we ready for the nonprovisional / what patent boxes are open?" | `P1/NONPROVISIONAL_READINESS.md` + `P1/NONPROVISIONAL_CLAIM_READINESS.csv` |
+| "What prior art / material information is already known?" | `P1/MATERIAL_INFORMATION_REGISTER.csv` |
+| "What has been publicly disclosed?" | `P1/PUBLIC_DISCLOSURE_REGISTER.csv` |
 | "What supports a patent section?" | `P1/P1_SUPPORT_MATRIX.csv` |
 | "What supports a skill?" | `P1/SKILL_SUPPORT_INDEX.md` |
 | "Find proof of a concept" | `data/proof_records.jsonl` |
