@@ -33,10 +33,16 @@ The governing rule is **comprehensive coverage, not curated highlights**.
 Every recoverable artifact across the authorized source universe must receive a disposition. That includes Git history and preserved pre-repository / non-Git originals. Relevant evidence is mapped during extraction to the frozen P1 disclosure through:
 
 - `P1/P1_FILING_ANCHOR.md`
+- `P1/NONPROVISIONAL_READINESS.md`
+- `P1/NONPROVISIONAL_CLAIM_READINESS.csv`
 - `P1/P1_SUPPORT_MATRIX.csv`
 - `P1/SKILL_SUPPORT_INDEX.md`
+- `P1/MATERIAL_INFORMATION_REGISTER.csv`
+- `P1/PUBLIC_DISCLOSURE_REGISTER.csv`
 
-P1 linkage, professional-dossier enrichment, and thesis enrichment are part of the same evidence work. Every reviewed source is checked for patent relevance, professional-history relevance, and thesis relevance.
+P1 linkage, nonprovisional-readiness control, professional-dossier enrichment, and thesis enrichment are part of the same evidence work. Every reviewed source is checked for patent relevance, professional-history relevance, and thesis relevance.
+
+The nonprovisional control surface follows a strict rule: **every serious claim gets every patent checkbox; every checkbox gets evidence, an explicit gap, or a filing action.** The repository does not pretend an open legal or procedural issue is complete merely because supporting evidence exists.
 
 ## Source universe
 
@@ -124,8 +130,12 @@ THESIS/
   THESIS_EVIDENCE_MAP.csv
 P1/
   P1_FILING_ANCHOR.md
+  NONPROVISIONAL_READINESS.md
+  NONPROVISIONAL_CLAIM_READINESS.csv
   P1_SUPPORT_MATRIX.csv
   SKILL_SUPPORT_INDEX.md
+  MATERIAL_INFORMATION_REGISTER.csv
+  PUBLIC_DISCLOSURE_REGISTER.csv
 data/
   proof_records.jsonl
 coverage/
