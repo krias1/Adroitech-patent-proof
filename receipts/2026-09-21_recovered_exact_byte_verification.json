@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "operation": "exact_byte_integrity_backfill",
+  "evidence_basis": "Successful computation outputs preserved in this audit conversation before workspace disconnect. No new computation claimed on September 21.",
+  "records": [
+    {
+      "source_repository": "krias1/Adroitech-Logic-Core",
+      "source_commit_sha": "580f5cf801b4dcace537d4ecb6980d6bee35c140",
+      "source_path": "00_COMMAND_CENTER/ACTIVE_PROJECTS.md",
+      "git_blob_sha1": "0b9f1aa3e8a235bf2f4b7a01df535b305c7ea2d5",
+      "byte_length": 11756,
+      "sha256": "52ff7a4684fb911bec8564d9c156fb6d1db25a05147f8517d938a68e22ea3e82",
+      "git_blob_recomputed_match": true,
+      "verified_date_utc": "2026-09-19",
+      "verification_method": "GitHub fetch_file encoding=base64 at pinned commit; Python base64.b64decode; SHA1(blob + space + decimal byte length + NUL + exact bytes) compared with Git blob ID; independent hashlib.sha256 on identical bytes",
+      "persisted_date_utc": "2026-09-21",
+      "source_access": "authorized private upstream",
+      "origin_claim": "No first-conception claim; existing origin and P1 review statuses unchanged"
+    },
+    {
+      "source_repository": "krias1/Adroitech-Logic-Core",
+      "source_commit_sha": "59d3e40110a374934e8252871b6dc47fb91ee7f9",
+      "source_path": "AdroitechLogic/Finance/2026-08-17_FINANCE_TAX_WORKPAPER_SEED.md",
+      "git_blob_sha1": "9d470677af337a79f6322e5861b1fe8601aba0ec",
+      "byte_length": 8525,
+      "sha256": "faca2eb97c803c087c1b92beecda59456b15f557473f9595c279f80d75368e33",
+      "git_blob_recomputed_match": true,
+      "verified_date_utc": "2026-09-19",
+      "verification_method": "GitHub fetch_file encoding=base64 at pinned commit; Python base64.b64decode; SHA1(blob + space + decimal byte length + NUL + exact bytes) compared with Git blob ID; independent hashlib.sha256 on identical bytes",
+      "persisted_date_utc": "2026-09-21",
+      "source_access": "authorized private upstream",
+      "origin_claim": "No first-conception claim; existing origin and P1 review statuses unchanged"
+    },
+    {
+      "source_repository": "krias1/Adroitech-Logic-Core",
+      "source_commit_sha": "0eaf59088f861f9a7f4a72618b9061c07b4972ee",
+      "source_path": "AdroitechLogic/Legal and Compliance/Taxes/2026-08-22_2026_FEDERAL_ESTIMATED_TAX_PAYMENT_EVIDENCE_RECONCILIATION.md",
+      "git_blob_sha1": "7513a21fd1d13a2283413bd18bfcf4b0ceed523e",
+      "byte_length": 2650,
+      "sha256": "2f296731a0b838454cbbfa60f6a9e2114010264743e23792d2fa4a1ad3011d68",
+      "git_blob_recomputed_match": true,
+      "verified_date_utc": "2026-09-19",
+      "verification_method": "GitHub fetch_file encoding=base64 at pinned commit; Python base64.b64decode; SHA1(blob + space + decimal byte length + NUL + exact bytes) compared with Git blob ID; independent hashlib.sha256 on identical bytes",
+      "persisted_date_utc": "2026-09-21",
+      "source_access": "authorized private upstream",
+      "origin_claim": "No first-conception claim; existing origin and P1 review statuses unchanged"
+    },
+    {
+      "source_repository": "krias1/Adroitech-Logic-Core",
+      "source_commit_sha": "f0051f31731f990067ad4776a2eaef62eef7c376",
+      "source_path": "AdroitechLogic/Run Receipts/2026-08-29_AUGUST_2026_MONTH_END_CONTINUITY_SYNC.md",
+      "git_blob_sha1": "428c53a28e1c9e66c76bc98502dc683fe5b20811",
+      "byte_length": 18825,
+      "sha256": "355632de1a276c42473be391465e8ef282d95633089a691ec19b3d2352a31169",
+      "git_blob_recomputed_match": true,
+      "verified_date_utc": "2026-09-19",
+      "verification_method": "GitHub fetch_file encoding=base64 at pinned commit; Python base64.b64decode; SHA1(blob + space + decimal byte length + NUL + exact bytes) compared with Git blob ID; independent hashlib.sha256 on identical bytes",
+      "persisted_date_utc": "2026-09-21",
+      "source_access": "authorized private upstream",
+      "origin_claim": "No first-conception claim; existing origin and P1 review statuses unchanged"
+    }
+  ],
+  "correction": {
+    "commit": "0eaf59088f861f9a7f4a72618b9061c07b4972ee",
+    "previous_incorrect_path": "AdroitechLogic/Finance/2026-08-22_TAX_EVIDENCE_RECONCILIATION.md",
+    "correct_path": "AdroitechLogic/Legal and Compliance/Taxes/2026-08-22_2026_FEDERAL_ESTIMATED_TAX_PAYMENT_EVIDENCE_RECONCILIATION.md"
+  },
+  "interruption": {
+    "status": "workspace_offline",
+    "bulk_capture": "Inventory observed 2,193 commits across four default-branch histories and 55 additional distinct Core ref commits. Metadata enumeration is not semantic review. Bulk diff capture began but completion and scratch persistence are unverified after disconnect; no complete database deliverable claimed.",
+    "remaining": "Recover or rebuild staged capture; validate parent closure and pagination; complete per-commit purpose review, source-rail dispositions, origin chains, P1/dossier/thesis mappings."
+  }
+}
