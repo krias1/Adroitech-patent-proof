@@ -29,17 +29,18 @@ Every relevant proof atom is evaluated against P1 using the existing support sta
 ## Active priorities
 
 1. **P0 — P1 filing anchor.** Maintain `P1/P1_FILING_ANCHOR.md`.
-2. **P0 — P1 support matrix.** Populate `P1/P1_SUPPORT_MATRIX.csv`.
-3. **P0 — Exhaustive evidence inventory.** Every artifact deliberately ingested into the reviewer-facing corpus receives a disposition.
-4. **P0 — Living professional dossier.** Update `DOSSIER_EVIDENCE_MAP.csv` and `PROFESSIONAL_DOSSIER.md` whenever established evidence materially strengthens the professional record.
-5. **P0 — Living thesis.** During the same evidence pass, evaluate every source for thesis significance. Update `THESIS/THESIS_EVIDENCE_MAP.csv` and sharpen `THESIS/README.md` when evidence materially supports a thesis claim, chapter, research question, hypothesis, limitation, method, or operational embodiment.
-6. **P0 — Chronological extraction.** Continue source-by-source review without skipping low-drama records.
-7. **P0 — Skill support mapping.** Maintain `P1/SKILL_SUPPORT_INDEX.md`.
-8. **P1 — Backfill existing proof atoms.** Map older proof records to P1, dossier, and thesis where applicable.
-9. **P1 — External-source reconciliation.** Preserve true source chronology without fabricating Git dates.
-10. **P1 — Operational evidence.** Connect conception/design records to builds, tests, field use, receipts, and write-back.
-11. **P1 — Independent verification.** Preserve hashes/object identities/byte lengths and reproduction paths where safe.
-12. **P1 — Gap registers.** Keep P1, dossier, and thesis gaps explicit until resolved.
+2. **P0 — Nonprovisional readiness control.** Maintain `P1/NONPROVISIONAL_READINESS.md`, `P1/NONPROVISIONAL_CLAIM_READINESS.csv`, `P1/MATERIAL_INFORMATION_REGISTER.csv`, and `P1/PUBLIC_DISCLOSURE_REGISTER.csv`. Every serious claim must eventually receive explicit §101 / §102 / §103 / §112 / priority / inventorship / disclosure dispositions.
+3. **P0 — P1 support matrix.** Populate `P1/P1_SUPPORT_MATRIX.csv`.
+4. **P0 — Exhaustive evidence inventory.** Every artifact deliberately ingested into the reviewer-facing corpus receives a disposition.
+5. **P0 — Living professional dossier.** Update `DOSSIER_EVIDENCE_MAP.csv` and `PROFESSIONAL_DOSSIER.md` whenever established evidence materially strengthens the professional record.
+6. **P0 — Living thesis.** During the same evidence pass, evaluate every source for thesis significance. Update `THESIS/THESIS_EVIDENCE_MAP.csv` and sharpen `THESIS/README.md` when evidence materially supports a thesis claim, chapter, research question, hypothesis, limitation, method, or operational embodiment.
+7. **P0 — Chronological extraction.** Continue source-by-source review without skipping low-drama records.
+8. **P0 — Skill support mapping.** Maintain `P1/SKILL_SUPPORT_INDEX.md`.
+9. **P1 — Backfill existing proof atoms.** Map older proof records to P1, dossier, and thesis where applicable.
+10. **P1 — External-source reconciliation.** Preserve true source chronology without fabricating Git dates.
+11. **P1 — Operational evidence.** Connect conception/design records to builds, tests, field use, receipts, and write-back.
+12. **P1 — Independent verification.** Preserve hashes/object identities/byte lengths and reproduction paths where safe.
+13. **P1 — Gap registers.** Keep P1, dossier, and thesis gaps explicit until resolved.
 
 ## Completion standard
 
@@ -50,6 +51,7 @@ It is complete only when:
 - every artifact in the reviewer-facing evidence universe has a disposition;
 - every relevant concept has traceable provenance and chronology;
 - every material P1 coordinate has an evidence status;
+- every final nonprovisional claim has explicit §101 / §102 / §103 / §112 / P1-priority / inventorship / candor / public-disclosure review status;
 - every material dossier section has an evidence trail;
 - every material thesis claim/chapter has an evidence trail or explicit research gap;
 - skill chains, corrections, predecessor/successor relationships, and contradictions are preserved;
