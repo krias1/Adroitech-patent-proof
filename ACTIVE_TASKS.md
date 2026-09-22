@@ -4,6 +4,12 @@
 **Primary filing anchor:** `P1-2026-09-16`  
 **Canonical source repository:** `krias1/Adroitech-Logic-Core`
 
+## Priority override — 2026-09-22
+
+**NONPROVISIONAL GO is now priority number one.** The proof project must first do the filing-critical work needed to move the corresponding U.S. utility nonprovisional for P1-2026-09-16 to submission-ready state. Exhaustive historical reconstruction, thesis enrichment, dossier enrichment, inventory recovery, and full-source disposition continue as background work and MUST NOT delay the filing packet.
+
+The filing-critical lane is: real claims -> limitation-level P1 support -> targeted prior-art pressure test -> nonprovisional specification -> abstract -> drawings -> ADS benefit claim -> declaration/application papers -> fee/format check -> Patent Center-ready manifest. The formal P1 Filing Receipt remains an explicit evidence task but is not a reason to idle nonprovisional drafting absent contrary USPTO information.
+
 ## Mission
 
 Build a comprehensive, reproducible evidence record for the complete historical development of Adroitech OS, continuously map that evidence to the technical disclosure already contained in P1, maintain the canonical living professional dossier, and maintain the living Human Integration with AI thesis from the same evidence work.
