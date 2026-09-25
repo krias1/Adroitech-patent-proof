@@ -6,7 +6,7 @@ Primary life mission: POOR RIGHTEOUS TEACHER — uplift people through knowledge
 Primary professional identity: SYSTEMS ENGINEER
 Engineering role in the mission: vehicle for building capability, independence, and durable human systems
 
-**Canonical living location:** `krias1/Adroitech-patent-proof.` / `PROFESSIONAL_DOSSIER.md`  
+**Canonical living location:** `krias1/Adroitech-patent-proof` / `PROFESSIONAL_DOSSIER.md`  
 **V4 source checkpoint:** `krias1/Adroitech-Logic-Core` / `Adroitech rollout/PROFESSIONAL_DOSSIER_V4_WORKING_RENDER_2026-09-16.md` / blob `516f470b06547842a4284ffb3c237ec9cb3d7ad4`  
 **Canonical evidence source checkpoint:** `Adroitech rollout/PROFESSIONAL_DOSSIER_CANONICAL_EVIDENCE_2026-09-16.md` / blob `4c6133297687072bc1efbc3cd3928246af060977`
 
