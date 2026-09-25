@@ -5,8 +5,8 @@ type: dataset
 authors:
   - family-names: "Todd"
     given-names: "Charles Anthony Jr."
-repository-code: "https://github.com/krias1/Adroitech-patent-proof."
-url: "https://github.com/krias1/Adroitech-patent-proof."
+repository-code: "https://github.com/krias1/Adroitech-patent-proof"
+url: "https://github.com/krias1/Adroitech-patent-proof"
 date-released: "2026-09-20"
 abstract: "Public reproducible evidence corpus and living research thesis covering Adroitech Logic Core, human-AI continuity, correction, provenance, representation reification, and auditable AI failure records."
 keywords:
