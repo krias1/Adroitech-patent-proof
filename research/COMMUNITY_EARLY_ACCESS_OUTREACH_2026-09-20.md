@@ -42,10 +42,10 @@ One part I think may interest you is the way we treated music and culture as ser
 I am not asking you for an endorsement. I would value your scrutiny. If you see something strong, weak, overstated, missing, or culturally wrong, tell me.
 
 Community early-access front door:
-https://github.com/krias1/Adroitech-patent-proof./blob/main/COMMUNITY_EARLY_ACCESS.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/COMMUNITY_EARLY_ACCESS.md
 
 Public proof repository:
-https://github.com/krias1/Adroitech-patent-proof.
+https://github.com/krias1/Adroitech-patent-proof
 
 Thank you for the work you have already put into speaking to our community with intelligence and humor.
 
@@ -97,10 +97,10 @@ If somebody can build a whole course around five minutes of music, the syllabus 
 I am not asking you to endorse me, promote me, or agree with the thesis. I would actually rather you attack the weak parts. I want to know whether the cultural lineage is represented with integrity, whether the analysis method is real, where I am overstating something, what scholarship I need to confront, and what survives serious criticism.
 
 Early-access front door:
-https://github.com/krias1/Adroitech-patent-proof./blob/main/COMMUNITY_EARLY_ACCESS.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/COMMUNITY_EARLY_ACCESS.md
 
 Public proof repository:
-https://github.com/krias1/Adroitech-patent-proof.
+https://github.com/krias1/Adroitech-patent-proof
 
 If you decide to look at it, thank you. Either way, I wanted you to know that your work is among the small number of public cultural-analysis projects I respect enough to invite into this stage of mine.
 
