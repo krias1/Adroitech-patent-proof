@@ -73,22 +73,22 @@ Academic expansion may reveal complexity. It does not retroactively create the c
 ## Start here
 
 ### Public proof repository
-https://github.com/krias1/Adroitech-patent-proof.
+https://github.com/krias1/Adroitech-patent-proof
 
 ### Research brief
-https://github.com/krias1/Adroitech-patent-proof./blob/main/research/HUMAN_AI_INTEGRITY_RESEARCH_BRIEF.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/research/HUMAN_AI_INTEGRITY_RESEARCH_BRIEF.md
 
 ### Correction Recurrence Challenge
-https://github.com/krias1/Adroitech-patent-proof./blob/main/research/CORRECTION_RECURRENCE_CHALLENGE.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/research/CORRECTION_RECURRENCE_CHALLENGE.md
 
 ### AI adverse failure assessment
-https://github.com/krias1/Adroitech-patent-proof./blob/main/reviews/2026-09-20_AI_REVIEWER_FAILURE_ASSESSMENT.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/reviews/2026-09-20_AI_REVIEWER_FAILURE_ASSESSMENT.md
 
 ### Spreadsheeting / anti-label thesis lineage
-https://github.com/krias1/Adroitech-patent-proof./blob/main/THESIS/SPREADSHEETING_LINEAGE.md
+https://github.com/krias1/Adroitech-patent-proof/blob/main/THESIS/SPREADSHEETING_LINEAGE.md
 
 ### Frozen cultural / intellectual originals
-https://github.com/krias1/Adroitech-patent-proof./tree/main/ORIGINALS/CULTURAL_LINEAGE
+https://github.com/krias1/Adroitech-patent-proof/tree/main/ORIGINALS/CULTURAL_LINEAGE
 
 ### Music Ingestion Engine — reusable Logic Core skill
 https://github.com/krias1/Adroitech-Logic-Core/blob/main/AdroitechLogic/Skills/music-ingestion-engine/SKILL.md
