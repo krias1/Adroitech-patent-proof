@@ -1,9 +1,29 @@
+# Mission override — examiner-first historical proof — 2026-09-25
+
+This section supersedes any later instruction that would turn the patent-proof repository into a forward-looking product activity feed.
+
+Start the patent lane with:
+
+- `P1/EXAMINER_FRONT_DOOR.md`
+- `P1/EXAMINER_QUESTION_MATRIX.csv`
+- `PROOF_SCRAPER_MISSION.md`
+
+The operating strategy is question-first: identify every material examiner/reviewer question, answer it from the strongest evidence, and give the reviewer an exact route to the answer.
+
+**Patent cutoff:** technical/conception evidence supporting P1 must arise before the actual P1 filing moment on 2026-09-16. Later discovery/indexing of old evidence is allowed. Post-P1 technical work is not backdated into P1. Post-P1 procedural records, hash verification, indexing, and later-discovered prior art with an earlier legally relevant date are allowed.
+
+**Do not passively monitor or ingest new Adroitech technical work into the patent proof lane.**
+
+After patent extraction from a historical source, perform the secondary professional-dossier and thesis passes.
+
+---
+
 # AGENTS.md — Adroitech Patent Proof AI Review Protocol
 
 **Repository role:** public, reproducible evidence corpus  
 **Primary filing anchor:** `P1-2026-09-16`  
 **Canonical technical source:** `krias1/Adroitech-Logic-Core`  
-**Proof repository:** `krias1/Adroitech-patent-proof.`
+**Proof repository:** `krias1/Adroitech-patent-proof`
 
 ## Why this file exists
 
