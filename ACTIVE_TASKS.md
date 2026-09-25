@@ -1,71 +1,114 @@
-# Active Tasks — Patent Proof / P1 Support / Living Dossier / Living Thesis Mission
+# Active Tasks — Examiner Zero-Reconstruction / Historical Proof Mission
 
-**Effective:** 2026-09-19  
+**Effective:** 2026-09-25  
 **Primary filing anchor:** `P1-2026-09-16`  
-**Canonical source repository:** `krias1/Adroitech-Logic-Core`
+**Canonical source repository:** `krias1/Adroitech-Logic-Core`  
+**Proof repository:** `krias1/Adroitech-patent-proof`
 
-## Priority override — 2026-09-22
+## Mission override
 
-**NONPROVISIONAL GO is now priority number one.** The proof project must first do the filing-critical work needed to move the corresponding U.S. utility nonprovisional for P1-2026-09-16 to submission-ready state. Exhaustive historical reconstruction, thesis enrichment, dossier enrichment, inventory recovery, and full-source disposition continue as background work and MUST NOT delay the filing packet.
+The patent-proof repository is not a forward activity log and is not a monitor for whatever Adroitech builds next.
 
-The filing-critical lane is: real claims -> limitation-level P1 support -> targeted prior-art pressure test -> nonprovisional specification -> abstract -> drawings -> ADS benefit claim -> declaration/application papers -> fee/format check -> Patent Center-ready manifest. The formal P1 Filing Receipt remains an explicit evidence task but is not a reason to idle nonprovisional drafting absent contrary USPTO information.
+Its first patent mission is the **Undeniable Strategy** in its operational sense:
 
-## Mission
+> know the questions an examiner or patent reviewer can ask, answer each question before it becomes a surprise, and put the exact evidence route directly in front of the reviewer so the record requires as little archaeology as possible.
 
-Build a comprehensive, reproducible evidence record for the complete historical development of Adroitech OS, continuously map that evidence to the technical disclosure already contained in P1, maintain the canonical living professional dossier, and maintain the living Human Integration with AI thesis from the same evidence work.
+"Undeniable" is the preparation strategy. It is not a claim that issuance is guaranteed.
 
-This is not a curated highlights project. Every artifact deliberately ingested into the proof process receives a disposition, and every meaningful source is evaluated for multiple possible roles: patent proof, professional dossier, thesis, implementation history, ethics, human-integration method, correction, or context.
+The patent lane is therefore **question-first and backward-looking from P1**.
 
-## Source boundary
+## Patent evidence cutoff
 
-The **public proof repository is the reviewer-facing evidence system**.
+For technical/conception support of P1, the relevant event or source must predate the actual P1 filing moment on 2026-09-16.
 
-Private source systems used by the maintainer to build or strengthen the corpus — including the user's ChatGPT Library, private chat history, connected accounts, private Drive/Gmail/Dropbox material, local devices, or other private archives — are **upstream curator sources**, not reviewer dependencies.
+A source may be discovered, indexed, hashed, or added to this repository later. That later ingestion date does not change the historical source date.
 
-The maintainer may consult those sources while reconstructing evidence, filling dossier gaps, strengthening thesis history, locating earlier originals, or reconciling chronology. Relevant material is then reduced into the proof repository as privacy-safe provenance, hashes, proof atoms, receipts, or public-safe summaries as appropriate.
+Post-P1 material is permitted in the patent lane only when it is one of these:
 
-No outside AI, scientist, patent reviewer, or repository consumer is instructed or expected to enter the user's private ChatGPT account, Library, chat history, or other private account.
+- a formal USPTO filing receipt, certified copy, or other procedural record about P1;
+- a later verification of exact pre-P1 bytes, hashes, commit ancestry, timestamps, or source-system metadata;
+- a later-created proof/index record whose underlying evidence is pre-P1;
+- later-discovered prior art whose own public-availability date is relevant to the effective filing date.
 
-See `SOURCE_BOUNDARY.md`.
+Do **not** use post-P1 technical development as if it proves what P1 disclosed, what existed before filing, or what deserves the P1 priority date.
 
-## P1 support rule
+Do **not** continuously ingest new Adroitech product work into this proof repo merely because it is new.
 
-Every relevant proof atom is evaluated against P1 using the existing support statuses. The proof repository does not amend P1; it builds the traceable evidence map around the frozen filing.
+## Priority 1 — Examiner question database
 
-## Active priorities
+Canonical front door:
 
-1. **P0 — P1 filing anchor.** Maintain `P1/P1_FILING_ANCHOR.md`.
-2. **P0 — Nonprovisional readiness control.** Maintain `P1/NONPROVISIONAL_READINESS.md`, `P1/NONPROVISIONAL_CLAIM_READINESS.csv`, `P1/MATERIAL_INFORMATION_REGISTER.csv`, and `P1/PUBLIC_DISCLOSURE_REGISTER.csv`. Every serious claim must eventually receive explicit §101 / §102 / §103 / §112 / priority / inventorship / disclosure dispositions.
-3. **P0 — P1 support matrix.** Populate `P1/P1_SUPPORT_MATRIX.csv`.
-4. **P0 — Exhaustive evidence inventory.** Every artifact deliberately ingested into the reviewer-facing corpus receives a disposition.
-5. **P0 — Living professional dossier.** Update `DOSSIER_EVIDENCE_MAP.csv` and `PROFESSIONAL_DOSSIER.md` whenever established evidence materially strengthens the professional record.
-6. **P0 — Living thesis.** During the same evidence pass, evaluate every source for thesis significance. Update `THESIS/THESIS_EVIDENCE_MAP.csv` and sharpen `THESIS/README.md` when evidence materially supports a thesis claim, chapter, research question, hypothesis, limitation, method, or operational embodiment.
-7. **P0 — Chronological extraction.** Continue source-by-source review without skipping low-drama records.
-8. **P0 — Skill support mapping.** Maintain `P1/SKILL_SUPPORT_INDEX.md`.
-9. **P1 — Backfill existing proof atoms.** Map older proof records to P1, dossier, and thesis where applicable.
-10. **P1 — External-source reconciliation.** Preserve true source chronology without fabricating Git dates.
-11. **P1 — Operational evidence.** Connect conception/design records to builds, tests, field use, receipts, and write-back.
-12. **P1 — Independent verification.** Preserve hashes/object identities/byte lengths and reproduction paths where safe.
-13. **P1 — Gap registers.** Keep P1, dossier, and thesis gaps explicit until resolved.
+- `P1/EXAMINER_FRONT_DOOR.md`
+- `P1/EXAMINER_QUESTION_MATRIX.csv`
+
+Every examiner-facing question gets:
+
+1. a stable question ID;
+2. controlling authority;
+3. current answer status;
+4. current answer/evidence route;
+5. exact repository path/proof IDs when available;
+6. missing answer;
+7. next extraction or filing action.
+
+The scraper/reviewer works from OPEN/PARTIAL rows first.
+
+## Priority 2 — Fill answers from historical evidence
+
+For each OPEN/PARTIAL examiner question:
+
+1. search the pre-P1 source universe;
+2. recover exact source identity and chronology;
+3. create/update proof atoms;
+4. update `P1/P1_SUPPORT_MATRIX.csv`;
+5. update the examiner matrix;
+6. update the material-information/prior-art register when needed;
+7. record source disposition in coverage.
+
+The goal is not "more files." The goal is fewer unanswered examiner questions.
+
+## Priority 3 — Professional dossier extraction
+
+During the same historical source pass, extract professionally relevant evidence into:
+
+- `DOSSIER_EVIDENCE_MAP.csv`
+- `PROFESSIONAL_DOSSIER.md`
+
+This is secondary to the patent examiner matrix.
+
+## Priority 4 — Thesis extraction
+
+During the same source pass, extract thesis/research evidence into:
+
+- `THESIS/THESIS_EVIDENCE_MAP.csv`
+- `THESIS/README.md`
+
+This is secondary to the patent examiner matrix.
+
+## Immediate patent gap queue
+
+1. final claim set / limitation list;
+2. exact limitation-by-limitation P1 support;
+3. formal P1 filing-receipt reconciliation;
+4. §101 technical-eligibility mapping for each independent claim;
+5. §102 single-reference novelty charts;
+6. §103 combination / reason-to-combine pressure tests;
+7. §112(a) written-description and full-scope enablement maps;
+8. §112(b) term boundaries / definiteness;
+9. §112(f) algorithm/structure mapping where implicated;
+10. human inventorship mapped to actual claim limitations;
+11. pre-P1 public-disclosure / public-use / offer-for-sale audit;
+12. material-information / IDS candidate register completion;
+13. best-mode confirmation;
+14. restriction/election risk across claim families;
+15. filing-package controls: ADS benefit claim, claims, abstract, drawings, declaration, fees, format.
 
 ## Completion standard
 
-The mission is not complete when a persuasive sample exists.
+The patent proof mission is ready for a patent professional only when a reviewer can move:
 
-It is complete only when:
+**examiner question -> answer -> claim/limitation -> P1 coordinate -> pre-P1 proof -> exact source -> provenance -> prior-art response -> gap/action**
 
-- every artifact in the reviewer-facing evidence universe has a disposition;
-- every relevant concept has traceable provenance and chronology;
-- every material P1 coordinate has an evidence status;
-- every final nonprovisional claim has explicit §101 / §102 / §103 / §112 / P1-priority / inventorship / candor / public-disclosure review status;
-- every material dossier section has an evidence trail;
-- every material thesis claim/chapter has an evidence trail or explicit research gap;
-- skill chains, corrections, predecessor/successor relationships, and contradictions are preserved;
-- protected personal evidence is represented by safe provenance rather than exposed payloads;
-- unresolved gaps remain explicit.
+without rebuilding the history from memory.
 
-## Operating rule
-
-Private upstream sources help **curate and perfect** the repository. They are not access requirements imposed on downstream reviewers.
-
-As evidence is ingested, the P1 matrix, dossier evidence map, and thesis evidence map are updated during the same work.
+A row may remain OPEN. It may not remain hidden.
