@@ -1,6 +1,10 @@
 # Nonprovisional Readiness — Patent CYA / Checkbox Matrix
 
-**Repository:** `krias1/Adroitech-patent-proof.`  
+## Examiner-first control note
+
+This checklist is subordinate to `EXAMINER_QUESTION_MATRIX.csv`. The proof repository's patent mission is to answer examiner/reviewer questions from the historical P1 record, not to monitor new post-P1 technical development. Later-discovered pre-P1 evidence and later procedural verification are allowed; later technical invention does not retroactively strengthen P1.
+
+**Repository:** `krias1/Adroitech-patent-proof`  
 **Primary filing anchor:** `P1-2026-09-16`  
 **Purpose:** reduce the future U.S. nonprovisional filing and examination record to a traceable set of explicit technical, evidentiary, procedural, and legal-review checkboxes.
 
