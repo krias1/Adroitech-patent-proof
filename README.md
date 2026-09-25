@@ -1,5 +1,15 @@
 # Adroitech Patent Proof Repository
 
+## Patent examiner front door
+
+Primary patent-review surfaces:
+
+- `P1/EXAMINER_FRONT_DOOR.md`
+- `P1/EXAMINER_QUESTION_MATRIX.csv`
+- `PROOF_SCRAPER_MISSION.md`
+
+The patent lane is backward-looking from P1. It answers examiner/reviewer questions from pre-P1 evidence and does not operate as a forward feed of new Adroitech technical work. Later discovery of old evidence is allowed; later invention is not backdated.
+
 > **AI agents / automated reviewers:** start with [`AGENTS.md`](AGENTS.md). It defines the evidence-review protocol, P1 routing, provenance rules, mutation rules, and standard review output contract.
 >
 > **Canonical living professional dossier:** [`PROFESSIONAL_DOSSIER.md`](PROFESSIONAL_DOSSIER.md) is maintained by this proof project, with [`DOSSIER_EVIDENCE_MAP.csv`](DOSSIER_EVIDENCE_MAP.csv) underneath it.
@@ -66,7 +76,7 @@ Source repository:
 
 Proof repository:
 
-`https://github.com/krias1/Adroitech-patent-proof.`
+`https://github.com/krias1/Adroitech-patent-proof`
 
 The trailing period is part of the GitHub repository name.
 
