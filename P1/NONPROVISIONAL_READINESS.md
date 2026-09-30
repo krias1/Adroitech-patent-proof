@@ -43,7 +43,7 @@ The formal USPTO filing receipt must still be reconciled to the public P1 anchor
 | AI-assisted inventorship review | **IN_PROGRESS** | Preserve human-origin, correction, architecture, implementation, and decision evidence. AI systems are tools, not inventors. Final inventorship turns on human conception of claimed subject matter. |
 | Application Data Sheet | **FILING_ACTION** | Prepare final ADS with inventor/applicant/correspondence/benefit information. |
 | Specification | **IN_PROGRESS** | P1 is frozen; nonprovisional specification must be drafted from supported disclosure plus clearly identified later material. |
-| At least one claim | **FILING_ACTION / LEGAL_REVIEW** | Final claims require element-level support, eligibility, prior-art, definiteness, and scope review. |
+| At least one claim | **IN_PROGRESS / LEGAL_REVIEW** | Operative candidate set is Claims 1–20 (3 independent); final filing status requires element-level support, eligibility, prior-art, definiteness, scope, inventorship, disclosure, and material-information review. |
 | Abstract | **FILING_ACTION** | Prepare separate abstract, generally one paragraph and no more than 150 words under current USPTO guidance. |
 | Drawings when necessary | **IN_PROGRESS** | P1 drawings exist; final claim set must be checked so every necessary claimed feature is adequately shown. |
 | Oath / declaration | **FILING_ACTION** | Execute required inventor declaration for the nonprovisional. |
@@ -55,7 +55,7 @@ The formal USPTO filing receipt must still be reconciled to the public P1 anchor
 
 # B. Claim-level patentability checkboxes
 
-Every **final** independent and dependent claim must receive a row in `P1/NONPROVISIONAL_CLAIM_READINESS.csv`.
+Every **final** independent and dependent claim must receive a row in `P1/NONPROVISIONAL_CLAIM_READINESS.csv`. The operative candidate control currently contains Claims 1–20, with three independent claims. No claim is READY merely because it has a row.
 
 | Legal / examination issue | Current repo posture | Required proof work |
 |---|---|---|
@@ -69,8 +69,8 @@ Every **final** independent and dependent claim must receive a row in `P1/NONPRO
 | **§112(a) — best mode** | **OPEN** | Before filing, inventor must identify the best mode known for carrying out the claimed invention and ensure the specification discloses it. |
 | **§112(b) — definiteness** | **OPEN / LEGAL_REVIEW** | Define boundaries and terms; remove ambiguous functional language that leaves scope unclear. |
 | **§112(f) — functional limitations, if invoked** | **OPEN / LEGAL_REVIEW** | For computer-implemented means-plus-function limitations, identify corresponding structure/algorithm in the specification. |
-| **Priority support to P1** | **IN_PROGRESS** | Each claim limitation seeking the 2026-09-16 benefit must map to sufficient P1 disclosure; later-added matter gets its own later effective date. |
-| **Drawings support** | **IN_PROGRESS** | Map claim elements to figures where drawings are needed for understanding. |
+| **Priority support to P1** | **IN_PROGRESS** | Each claim limitation seeking the 2026-09-16 benefit must map to sufficient P1 disclosure; later-added matter gets its own later effective date. Claim 9 exact-text coordinates are reconciled; drawing and remaining legal gates are not. |
+| **Drawings support** | **IN_PROGRESS** | Map claim elements to figures where drawings are needed for understanding. Frozen FIGS. 4/8 remain material to Claim 9 drawing reconciliation. |
 | **Inventorship per claim** | **LEGAL_REVIEW** | Final inventorship must be checked against who conceived the subject matter of the actual claims. |
 | **Material-information / candor review** | **IN_PROGRESS** | Maintain `P1/MATERIAL_INFORMATION_REGISTER.csv`; preserve contrary evidence and potentially material references rather than burying them. |
 | **Public disclosure / new-matter review** | **IN_PROGRESS** | Maintain `P1/PUBLIC_DISCLOSURE_REGISTER.csv`; flag public material not clearly supported by P1 before relying on P1 priority. |
@@ -167,7 +167,7 @@ For every potentially material reference:
 6. route it for IDS / duty-of-disclosure review when appropriate;
 7. never delete it because it makes the claim narrower.
 
-The repository already contains a CloneMem prior-art watch record. That belongs in the centralized material-information register.
+The centralized material-information register includes pre-P1 references requiring limitation-level treatment; those records must stay adverse rather than promotional.
 
 ---
 
@@ -227,19 +227,21 @@ Those answers should already have a route.
 
 ---
 
-# H. Current gap assessment
+# H. Current gap assessment — reconciled 2026-09-30
 
-As of this control-file creation:
+- P1 artifact identity is strongly anchored to the exact preserved specification, drawings, signed cover-sheet artifact, and USPTO acknowledgement. The acknowledgement records Application No. `64/155,744`, confirmation `5031`, Patent Center number `81801706`, title, first named inventor, provisional application type, and the $325 filing fee; the **formal USPTO Filing Receipt remains an explicit reconciliation task**.
+- The operative candidate claim surface is now **Claims 1–20, including 3 independent claims**. The earlier statement that final candidate claims did not exist in the proof surface is obsolete and must not be used as a blocker.
+- `P1/P1_SUPPORT_MATRIX.csv` now tracks the operative 20-claim set rather than the obsolete illustrative CLAIM-A through CLAIM-F placeholders.
+- Claim 9 has completed exact-text-coordinate reconciliation against frozen P1 disclosure. That finding does **not** clear Claim 9: frozen FIGS. 4/8 drawing inspection plus §101, §102, §103, §112, inventorship, best-mode, material-information, and disclosure review remain open.
+- Claim 9's general support premise is **not** universal static resume-point invariance. Persistent workstream identity and checkpoint/resume state are distinct. A preserved checkpoint during a paused/non-advancing embodiment may be used only to the extent the exact frozen P1 supports that narrower embodiment.
+- Claims 7, 8, and 19 retain heightened exact-filed-page verification flags in the operative claim-readiness control.
+- The remaining claims still require limitation-level frozen-P1 reconciliation sufficient to support their actual breadth; candidate-chart labels are not substitutes for exact filed-artifact review.
+- Prior-art work is centralized in `P1/MATERIAL_INFORMATION_REGISTER.csv`; pre-P1 references must receive element-level novelty/obviousness treatment and IDS/materiality review rather than being suppressed.
+- Public-disclosure/new-matter review remains open in `P1/PUBLIC_DISCLOSURE_REGISTER.csv`.
+- Human inventorship must be resolved against the final claims; AI participation does not replace the natural-person conception analysis.
+- Filing papers, current fee calculation, DOCX/Patent Center validation, exact-file QA, final hashes/byte lengths, and the zero-reconstruction upload packet remain filing-critical work.
 
-- P1 artifact identity is strongly anchored, but the **formal USPTO filing receipt remains an explicit reconciliation task**.
-- The P1 support matrix has many coordinates still marked `evidence_linking_in_progress`.
-- Several coordinates currently have only foundational conception/context support and still need implementation/test/receipt linkage.
-- Final nonprovisional claims do not yet exist in this public proof surface, so claim-level §101/§102/§103/§112 review cannot honestly be marked complete.
-- Prior-art work exists but needs a central material-information register.
-- Public-disclosure/new-matter control needs a central register.
-- Human inventorship evidence is unusually important because AI tools participated in the development workflow; the repository should make the human conception path inspectable without anthropomorphizing the tools.
-
-That is the correct state to expose. **Undeniable does not mean pretending every box is already green. It means no box is hidden.**
+That is the correct current state to expose. **Undeniability means an adversarially checked, reproducible record with every remaining defect visible—not pretending every box is green.**
 
 ---
 
