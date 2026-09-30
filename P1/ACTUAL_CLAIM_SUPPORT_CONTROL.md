@@ -4,9 +4,11 @@
 
 ## Purpose
 
-This file prevents the obsolete `CLAIM-A` through `CLAIM-F` rows in `P1_SUPPORT_MATRIX.csv` from being mistaken for the operative nonprovisional claim set.
+This file identifies the operative nonprovisional claim-support surface and prevents stale migration instructions from being mistaken for current work.
 
-The operative candidate claim-control surface is `P1/NONPROVISIONAL_CLAIM_READINESS.csv`, which now contains claims 1-20. Until `P1_SUPPORT_MATRIX.csv` is migrated to limitation-level rows for those claims, its `CLAIM-A` through `CLAIM-F` rows are **QUARANTINED / NON-OPERATIVE** and must not be used to close written-description, enablement, priority, figure-support, novelty, obviousness, or filing-readiness gates.
+The operative candidate claim-control surface is `P1/NONPROVISIONAL_CLAIM_READINESS.csv`, which contains Claims 1-20. `P1/P1_SUPPORT_MATRIX.csv` has now been migrated from the obsolete illustrative `CLAIM-A` through `CLAIM-F` rows to actual `CLAIM-1` through `CLAIM-20` rows. Therefore, the former instruction that the support matrix still contains six illustrative claim rows is **SUPERSEDED**.
+
+The migrated matrix is not yet the final limitation-level §112/priority chart. Except for Claim 9's completed exact-text-coordinate reconciliation, the claim rows remain candidate-coordinate controls requiring exact frozen-file reconciliation at the limitation level. Claims 7, 8, and 19 retain heightened exact-filed-page verification requirements.
 
 This control does not promote any claim to READY and does not infer P1 support from historical evidence. Frozen-P1 support must be established from the exact filed P1 specification/drawings.
 
@@ -14,30 +16,32 @@ This control does not promote any claim to READY and does not infer P1 support f
 
 | Claim | Working title | Dependency | Support-control status |
 |---|---|---|---|
-| 1 | Integrated runtime resolution | independent | limitation-level P1 mapping required |
-| 2 | Provenance evidence correction freshness permission filtering | claim 1 | limitation-level P1 mapping required |
-| 3 | Inference-resource budget | claim 1 | limitation-level P1 mapping required |
-| 4 | Event lifecycle relevance | claim 1 | limitation-level P1 mapping required |
-| 5 | Correction supersession and preserved provenance | claim 1 | limitation-level P1 mapping required |
-| 6 | Model-independent durable reconstruction | claim 1 | limitation-level P1 mapping required |
+| 1 | Integrated runtime resolution | independent | exact filed-PDF limitation reconciliation required |
+| 2 | Provenance evidence correction freshness permission filtering | claim 1 | exact filed-PDF limitation reconciliation required |
+| 3 | Inference-resource budget | claim 1 | exact filed-PDF limitation reconciliation required |
+| 4 | Event lifecycle relevance | claim 1 | exact filed-PDF limitation reconciliation required |
+| 5 | Correction supersession and preserved provenance | claim 1 | exact filed-PDF limitation reconciliation required |
+| 6 | Model-independent durable reconstruction | claim 1 | exact filed-PDF limitation reconciliation required |
 | 7 | Physical identifier namespace resolution and write-back | claim 1 | exact-filed-page verification required |
 | 8 | Offline capture and authoritative reconciliation | claim 7 | exact-filed-page verification required |
-| 9 | Workstream continuity under Person State change | independent | mutable checkpoint/resume-state P1 mapping required; no static resume-point invariance |
-| 10 | Person State fields and field-specific freshness | claim 9 | limitation-level P1 mapping required |
-| 11 | Newer evidence correction or supersession before resume | claim 9 | limitation-level P1 mapping required |
-| 12 | Do-not-repeat state | claim 9 | limitation-level P1 mapping required |
-| 13 | Mobile or voice feasibility transition | claim 9 | limitation-level P1 mapping required |
-| 14 | Bounded resume package | claim 9 | exact resume-point and permission-information boundaries require mapping |
-| 15 | Provider-independent handoff | independent | limitation-level P1 mapping required |
-| 16 | Different provider or local-cloud runtime transfer | claim 15 | limitation-level P1 mapping required |
-| 17 | Handoff correction provenance permission evidence do-not-repeat | claim 15 | each alternative requires individual support verification |
-| 18 | Permission-scoped reduced handoff | claim 15 | limitation-level P1 mapping required |
+| 9 | Workstream continuity under Person State change | independent | exact text coordinates reconciled; frozen FIGS. 4/8 and remaining legal gates open |
+| 10 | Person State fields and field-specific freshness | claim 9 | exact filed-PDF limitation reconciliation required |
+| 11 | Newer evidence correction or supersession before resume | claim 9 | exact filed-PDF limitation reconciliation required |
+| 12 | Do-not-repeat state | claim 9 | exact filed-PDF limitation reconciliation required |
+| 13 | Mobile or voice feasibility transition | claim 9 | exact filed-PDF limitation reconciliation required |
+| 14 | Bounded resume package | claim 9 | exact resume-point and permission-information boundaries require reconciliation |
+| 15 | Provider-independent handoff | independent | exact filed-PDF limitation reconciliation required |
+| 16 | Different provider or local-cloud runtime transfer | claim 15 | exact filed-PDF limitation reconciliation required |
+| 17 | Handoff correction provenance permission evidence do-not-repeat | claim 15 | each alternative requires individual exact-P1 support verification |
+| 18 | Permission-scoped reduced handoff | claim 15 | exact filed-PDF limitation reconciliation required |
 | 19 | Replacement endpoint restore | claim 15 | exact-filed-page verification required |
-| 20 | Post-reconstruction durable write-back | claim 15 | limitation-level P1 mapping required |
+| 20 | Post-reconstruction durable write-back | claim 15 | exact filed-PDF limitation reconciliation required |
 
-## Migration rule
+## Current matrix rule
 
-The next support-matrix revision must replace the six illustrative claim rows with the actual 20-claim set and then decompose each claim into limitation-level support rows. Each limitation row must identify, at minimum:
+`P1/P1_SUPPORT_MATRIX.csv` is now an operative **claim-level routing matrix**, not an obsolete illustrative-claim matrix. Its `CLAIM-1` through `CLAIM-20` rows may be used to route exact-P1 review, but—unless a row expressly records completed reconciliation—they must not be treated as proof that every limitation is supported.
+
+The next refinement is limitation-level decomposition for each claim. Each limitation row must identify, at minimum:
 
 - exact frozen-P1 specification coordinate(s);
 - exact frozen-P1 figure(s), where applicable;
@@ -52,8 +56,8 @@ No claim may be marked P1-supported merely because the same concept appears in p
 
 ## Claim 9 architecture control
 
-For Claim 9 and its dependents, preserve the distinction between **persistent workstream identity** and **mutable checkpoint/resume state**. The earlier static resume-point-invariance formulation is not operative. Any stronger authority/priority reconciliation mechanism must be separately mapped to the frozen P1 before receiving the 2026-09-16 priority date; otherwise it is later matter.
+For Claim 9 and its dependents, preserve the distinction between **persistent workstream identity** and **mutable checkpoint/resume state**. Claim 9's exact frozen-P1 text coordinates have been reconciled in `CLAIM9_EXACT_FROZEN_P1_SUPPORT_CONTROL.md`; frozen FIGS. 4/8 still require visual inspection. The earlier universal static resume-point-invariance formulation is not operative. A narrower preserved-checkpoint embodiment may be used only to the extent confirmed by the exact frozen filing. Any stronger authority/priority reconciliation mechanism must be separately mapped to frozen P1 or treated as later matter.
 
 ## Readiness effect
 
-This control removes an examiner/reviewer ambiguity in the proof surface, but it does **not** close the P1-support gate. Overall filing status remains `NOT_READY` until the operative claims receive limitation-level frozen-P1 mapping and the other filing-critical gates close.
+This reconciliation removes a stale control-plane contradiction: the repository no longer instructs reviewers to migrate a matrix that has already been migrated. It does **not** close the P1-support gate. Overall filing status remains `NOT_READY` until the operative claims receive required limitation-level frozen-P1 reconciliation and the remaining filing-critical gates close.
