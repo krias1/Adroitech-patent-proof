@@ -1,14 +1,27 @@
 # Claim 15 Frozen-P1 Boundary Control
 
-**Claim family:** Claim 15 — Provider-independent handoff (independent), with Claims 16–20 dependent.
-
-**Status:** NOT READY — exact filed-artifact reconciliation required.
+**Claim family:** Claim 15 — Provider-independent handoff (independent), with Claims 16–20 dependent.  
+**Priority anchor:** U.S. Provisional Application No. 64/155,744, filed/acknowledged 2026-09-16  
+**Exact frozen specification path:** `AdroitechLogic/01_ADROITECH_OS_PROVISIONAL_SPECIFICATION_2026-09-16.pdf`  
+**Frozen filing-artifact commit:** `923872b0a2dca9b33506bcfa55b539a1a7a0e051`  
+**Specification Git blob SHA-1:** `fafd69044334f1e151f35e269351a8bf6b64dc84`  
+**Specification SHA-256:** `267628A51CC938DBCBD724AF4F7F9B0A1AD58532F32B738B12A36490C2CFF00E`  
+**Exact frozen drawings path:** `AdroitechLogic/02_ADROITECH_OS_PROVISIONAL_DRAWINGS_2026-09-16.pdf`  
+**Drawings Git blob SHA-1:** `0f9b3157e455e37a9a488f70e9457876cac3f8bc`  
+**Drawings SHA-256:** `D27C4FE6FD3D39CACB15C3268DCB74BC8A31E2AE96474A04336D3439E55CD9E5`  
+**Status:** NOT READY — limitation-level exact filed-artifact reconciliation required.
 
 ## Purpose
 
 This control prevents a dangerous support error during the nonprovisional sprint: treating pre-filing patent-workspace drafts, later repository architecture, implementation receipts, or post-P1 continuity documentation as though they were automatically part of the exact frozen P1 disclosure filed on 2026-09-16.
 
 The operative support matrix currently identifies candidate Claim 15 coordinates as Background; Summary; Detailed Description §§1, 13–14; and FIGS. 1 and 6. Those coordinates are routing leads only until reconciled against the exact frozen P1 specification/drawings.
+
+## Exact-artifact binding
+
+The Claim 15 gate is now bound to the same immutable artifact identities recorded in `P1/P1_FILING_ANCHOR.md`. The exact specification PDF is directly retrievable from the canonical repository at the path above; its PDF metadata identifies Charles Anthony Todd Jr. as author and the Adroitech OS person-specific AI runtime/portable human continuity title, and the PDF page tree reports 12 pages. These metadata facts help identify the artifact but **do not establish support for any Claim 15 limitation**. Support clearance requires inspection of the actual frozen text and drawings, not metadata, filenames, pre-filing drafts, or later descriptions.
+
+No alternate PDF, reconstructed text, later DOCX, patent-workspace draft, or post-P1 repository explanation may silently replace this exact specification/drawing pair for P1-priority analysis. If extracted text is used for searching or charting, every dispositive support coordinate must be checked back against these exact frozen PDF bytes.
 
 ## What the pre-filing workspace appears to disclose
 
