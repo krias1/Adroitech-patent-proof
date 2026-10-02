@@ -38,16 +38,16 @@ The formal USPTO filing receipt must still be reconciled to the public P1 anchor
 |---|---|---|
 | Formal P1 filing receipt reconciled | **OPEN** | Complete `P1/P1_FILING_ANCHOR.md` follow-through; preserve official filing date and certified copy when available. |
 | Nonprovisional filed within benefit window | **FILING_ACTION** | Working target `2027-09-16`; do not wait for restoration period. |
-| Specific reference to P1 in ADS | **FILING_ACTION** | Nonprovisional ADS must claim benefit of the provisional as required by USPTO rules. |
+| Specific reference to P1 in ADS | **FILING_ACTION** | Nonprovisional ADS must claim benefit of provisional Application No. 64/155,744, filed 2026-09-16, subject to final anchor reconciliation. |
 | Correct inventor(s) | **LEGAL_REVIEW** | Maintain human-conception evidence; review inventorship against the actual final claims. Only natural persons may be inventors. |
 | AI-assisted inventorship review | **IN_PROGRESS** | Preserve human-origin, correction, architecture, implementation, and decision evidence. AI systems are tools, not inventors. Final inventorship turns on human conception of claimed subject matter. |
 | Application Data Sheet | **FILING_ACTION** | Prepare final ADS with inventor/applicant/correspondence/benefit information. |
 | Specification | **IN_PROGRESS** | P1 is frozen; nonprovisional specification must be drafted from supported disclosure plus clearly identified later material. |
-| At least one claim | **IN_PROGRESS / LEGAL_REVIEW** | Operative candidate set is Claims 1–20 (3 independent); final filing status requires element-level support, eligibility, prior-art, definiteness, scope, inventorship, disclosure, and material-information review. |
+| At least one claim | **IN_PROGRESS / LEGAL_REVIEW** | Operative candidate set is Claims 1–20 (3 independent). All 20 now have recorded frozen-P1 written-description/priority dispositions consistent with the operative wording; remaining gates include enablement, eligibility, prior art, definiteness, inventorship, disclosure, and filing QA. |
 | Abstract | **FILING_ACTION** | Prepare separate abstract, generally one paragraph and no more than 150 words under current USPTO guidance. |
 | Drawings when necessary | **IN_PROGRESS** | P1 drawings exist; final claim set must be checked so every necessary claimed feature is adequately shown. |
 | Oath / declaration | **FILING_ACTION** | Execute required inventor declaration for the nonprovisional. |
-| Filing, search, examination fees | **FILING_ACTION** | Check current USPTO fee schedule at filing; preserve payment receipt. |
+| Filing, search, examination fees | **IN_PROGRESS / FILING_ACTION** | `P1/2026-10-02_NONPROVISIONAL_INITIAL_FEE_CONTROL.md` records the current baseline for 20 claims / 3 independent: $2,000 regular / $730 qualifying electronic small entity / $400 micro, before circumstance-specific fees. Entity status and final page/format QA remain unresolved. |
 | DOCX filing / format controls | **FILING_ACTION** | Use current Patent Center formatting rules; description, claims, and abstract should be filed in DOCX to avoid the current non-DOCX surcharge unless a deliberate exception is chosen. |
 | Sequence listing / large table / computer listing if applicable | **N_A_PENDING_CONFIRMATION** | Explicitly determine whether any specialized submission requirement applies. Do not silently assume N/A. |
 
@@ -64,12 +64,12 @@ Every **final** independent and dependent claim must receive a row in `P1/NONPRO
 | **§101 — subject-matter eligibility** | **LEGAL_REVIEW** | For software/AI claims, map the claim as a whole under current USPTO eligibility analysis; identify concrete technical integration rather than relying on novelty alone. |
 | **§102 — novelty** | **IN_PROGRESS** | Maintain prior-art register and element-by-element novelty chart. A broad similarity is not enough; check each limitation. |
 | **§103 — nonobviousness** | **OPEN / LEGAL_REVIEW** | Test likely combinations of references, reason to combine, and what the claimed arrangement changes technically. |
-| **§112(a) — written description** | **IN_PROGRESS** | Every claim limitation must map to actual disclosure showing possession of the claimed subject matter. |
+| **§112(a) — written description** | **PASS_EVIDENCE / FINAL-QA PENDING** | All 20 operative claims now have recorded frozen-P1 support dispositions consistent with current wording. Claims 12–13 were narrowed to cure identified support defects. Preserve the claim-specific controls and perform final dependency/antecedent-basis and filing-text comparison before READY. |
 | **§112(a) — enablement** | **IN_PROGRESS** | Link algorithms, flows, schemas, implementation detail, tests, and reproducibility evidence sufficient for the claimed scope without undue experimentation. |
 | **§112(a) — best mode** | **OPEN** | Before filing, inventor must identify the best mode known for carrying out the claimed invention and ensure the specification discloses it. |
 | **§112(b) — definiteness** | **OPEN / LEGAL_REVIEW** | Define boundaries and terms; remove ambiguous functional language that leaves scope unclear. |
 | **§112(f) — functional limitations, if invoked** | **OPEN / LEGAL_REVIEW** | For computer-implemented means-plus-function limitations, identify corresponding structure/algorithm in the specification. |
-| **Priority support to P1** | **IN_PROGRESS** | Each claim limitation seeking the 2026-09-16 benefit must map to sufficient P1 disclosure; later-added matter gets its own later effective date. Claim 9 exact-text coordinates are reconciled; drawing and remaining legal gates are not. |
+| **Priority support to P1** | **PASS_EVIDENCE / FINAL-QA PENDING** | All 20 operative claims have a recorded frozen-P1 priority-support disposition consistent with the current claim wording. Claims 12–13 use the P1-safe narrowed wording. This does not clear enablement, drawings, statutory patentability, inventorship, disclosure, or final-file QA. |
 | **Drawings support** | **IN_PROGRESS** | Map claim elements to figures where drawings are needed for understanding. Frozen FIGS. 4/8 remain material to Claim 9 drawing reconciliation. |
 | **Inventorship per claim** | **LEGAL_REVIEW** | Final inventorship must be checked against who conceived the subject matter of the actual claims. |
 | **Material-information / candor review** | **IN_PROGRESS** | Maintain `P1/MATERIAL_INFORMATION_REGISTER.csv`; preserve contrary evidence and potentially material references rather than burying them. |
@@ -227,19 +227,20 @@ Those answers should already have a route.
 
 ---
 
-# H. Current gap assessment — reconciled 2026-09-30
+# H. Current gap assessment — reconciled 2026-10-02
 
 - P1 artifact identity is strongly anchored to the exact preserved specification, drawings, signed cover-sheet artifact, and USPTO acknowledgement. The acknowledgement records Application No. `64/155,744`, confirmation `5031`, Patent Center number `81801706`, title, first named inventor, provisional application type, and the $325 filing fee; the **formal USPTO Filing Receipt remains an explicit reconciliation task**.
-- The operative candidate claim surface is now **Claims 1–20, including 3 independent claims**. The earlier statement that final candidate claims did not exist in the proof surface is obsolete and must not be used as a blocker.
-- `P1/P1_SUPPORT_MATRIX.csv` now tracks the operative 20-claim set rather than the obsolete illustrative CLAIM-A through CLAIM-F placeholders.
-- Claim 9 has completed exact-text-coordinate reconciliation against frozen P1 disclosure. That finding does **not** clear Claim 9: frozen FIGS. 4/8 drawing inspection plus §101, §102, §103, §112, inventorship, best-mode, material-information, and disclosure review remain open.
+- The operative candidate claim surface is **Claims 1–20, including 3 independent claims**.
+- All 20 operative claims now have a recorded frozen-P1 written-description/priority-support disposition consistent with current claim wording. Claims 12 and 13 were deliberately narrowed after adverse exact-P1 review rather than treating later semantics as P1-supported.
+- Claim 12 no longer relies on the unsupported completed-or-rejected-operation taxonomy/suppression breadth; Claim 13 no longer relies on unverified voice/retrieval alternatives.
+- This support milestone is **not** a patentability clearance. Enablement, §101, §102, §103, §112(b), §112(f) where relevant, dependency/antecedent basis, drawings, inventorship, best mode, material-information, public-disclosure/new-matter review, and final filing-text QA remain open as applicable.
 - Claim 9's general support premise is **not** universal static resume-point invariance. Persistent workstream identity and checkpoint/resume state are distinct. A preserved checkpoint during a paused/non-advancing embodiment may be used only to the extent the exact frozen P1 supports that narrower embodiment.
 - Claims 7, 8, and 19 retain heightened exact-filed-page verification flags in the operative claim-readiness control.
-- The remaining claims still require limitation-level frozen-P1 reconciliation sufficient to support their actual breadth; candidate-chart labels are not substitutes for exact filed-artifact review.
 - Prior-art work is centralized in `P1/MATERIAL_INFORMATION_REGISTER.csv`; pre-P1 references must receive element-level novelty/obviousness treatment and IDS/materiality review rather than being suppressed.
 - Public-disclosure/new-matter review remains open in `P1/PUBLIC_DISCLOSURE_REGISTER.csv`.
 - Human inventorship must be resolved against the final claims; AI participation does not replace the natural-person conception analysis.
-- Filing papers, current fee calculation, DOCX/Patent Center validation, exact-file QA, final hashes/byte lengths, and the zero-reconstruction upload packet remain filing-critical work.
+- Current initial-fee control is preserved in `P1/2026-10-02_NONPROVISIONAL_INITIAL_FEE_CONTROL.md`: for the present 20-total/3-independent claim surface, baseline initial fees are $2,000 regular / $730 qualifying electronic small entity / $400 micro, before circumstance-specific fees. **Entity status remains a blocker before final payment**, and final page/format QA can change the fee calculation.
+- Filing papers, DOCX/Patent Center validation, exact-file QA, final hashes/byte lengths, and the zero-reconstruction upload packet remain filing-critical work.
 
 That is the correct current state to expose. **Undeniability means an adversarially checked, reproducible record with every remaining defect visible—not pretending every box is green.**
 
@@ -247,12 +248,16 @@ That is the correct current state to expose. **Undeniability means an adversaria
 
 # I. Official control sources
 
-Checked against current USPTO guidance on 2026-09-20:
+Current procedural/fee controls should be rechecked immediately before filing. Core sources:
 
 - Nonprovisional Utility Patent Application Filing Guide  
   https://www.uspto.gov/patents/basics/apply/utility-patent
 - Provisional Application for Patent / 12-month benefit window  
   https://www.uspto.gov/patents/basics/apply/provisional-application
+- USPTO Fee Schedule  
+  https://www.uspto.gov/learning-and-resources/fees-and-payment/uspto-fee-schedule
+- Small / micro entity guidance  
+  https://www.uspto.gov/patents/apply/save-on-fees
 - MPEP §2103 — patent examination sequence / §§101, 102, 103, 112  
   https://www.uspto.gov/web/offices/pac/mpep/s2103.html
 - MPEP §2106 — subject matter eligibility  
