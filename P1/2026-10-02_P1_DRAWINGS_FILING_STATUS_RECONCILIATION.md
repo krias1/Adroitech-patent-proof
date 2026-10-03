@@ -30,6 +30,14 @@ The PDF calls itself an `ELECTRONIC PAYMENT RECEIPT` and states that the acknowl
 
 Accordingly, this recovered authoritative artifact materially strengthens the application-number/title/inventor/receipt-time/payment anchor, but it does **not** resolve whether the drawings PDF was among the documents received.
 
+## Current USPTO legal consequence — clarified 2026-10-03
+
+Current USPTO guidance materially narrows the procedural consequence of this unresolved fact. For a provisional application filed on or after December 18, 2013, the filing date is the date on which a specification satisfying the applicable disclosure requirement is received, **with or without claims and regardless of whether drawings are submitted**. See MPEP § 201 (discussion of provisional applications and 37 CFR 1.53(c)). MPEP § 608.02 likewise states that, except for design applications, absence of a drawing on the filing date no longer raises a filing-date question for applications filed under 35 U.S.C. 111 on or after December 18, 2013.
+
+That does **not** make omitted drawings irrelevant. Under 35 U.S.C. 113 / 37 CFR 1.81 and current MPEP § 608.02, drawings must be furnished where necessary to understand the subject matter, and drawings supplied after filing cannot cure an enabling/written-description insufficiency or supplement the original disclosure for claim-scope interpretation. No new matter may be introduced after filing.
+
+Therefore the unresolved drawings question is classified as a **priority-support-scope / original-disclosure verification blocker**, not by itself a blocker to recognizing the September 16, 2026 provisional filing date if the exact specification was received and itself satisfies the filing-date disclosure requirement.
+
 ## Controlling disposition
 
 Until an authoritative USPTO artifact resolves the document-content conflict, the drawings PDF is:
@@ -50,4 +58,4 @@ Claim 9 currently has text support in the exact specification for the principal 
 
 The same conservative rule applies across Claims 1–20 wherever a support control cites a frozen figure.
 
-**Status:** MATERIAL FILING-ANCHOR BLOCKER / NONPROVISIONAL PACKAGE NOT READY.
+**Status:** MATERIAL PRIORITY-SUPPORT-SCOPE / ORIGINAL-DISCLOSURE VERIFICATION BLOCKER; P1 DRAWINGS NOT PROVEN FILED. This unresolved fact alone is not treated as negating the provisional filing date under current post-2013 USPTO filing-date rules. NONPROVISIONAL PACKAGE REMAINS NOT READY for the independent filing-critical gates still open.
