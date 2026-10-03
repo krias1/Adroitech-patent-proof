@@ -1,6 +1,6 @@
 # P1 Drawings Filing-Status Reconciliation
 
-**Control date:** 2026-10-02  
+**Control date:** 2026-10-03  
 **Application:** U.S. Provisional Application No. 64/155,744  
 **Purpose:** prevent the nonprovisional sprint from treating the preserved pre-filing drawings PDF as proven filed P1 subject matter unless the USPTO record establishes that fact.
 
@@ -11,11 +11,28 @@ The canonical repository preserves two materially different statements:
 1. `AdroitechLogic/Run Receipts/2026-09-16_USPTO_PROVISIONAL_SUBMISSION_CONFIRMATION.md` labels the drawings PDF as part of the "Exact filed artifact set preserved in repository" and records its pre-filing SHA-256 as `D27C4FE6FD3D39CACB15C3268DCB74BC8A31E2AE96474A04336D3439E55CD9E5`.
 2. `CURRENT_RESUME_POINT.md` states that the specification was uploaded and visible in Patent Center, while the drawings and cover letter were staged locally but **not verified uploaded**.
 
-The acknowledgement facts presently preserved establish Application No. 64/155,744, confirmation 5031, Patent Center number 81801706, title, first named inventor, application type, and $325 payment, but the current repository text does not provide a document-by-document USPTO receipt listing that independently proves the drawings were received.
+## Authoritative receipt artifact recovered 2026-10-03
+
+The inventor's Gmail preserves an email dated 2026-09-16 with subject `Patent receipt` and attachment `usptoReceiptConfirmation (1).pdf`. Direct extraction of that attached USPTO PDF establishes:
+
+- Application No. `64/155,744`;
+- receipt date/time `09/16/2026 07:24:05 AM Z ET` as printed by the receipt;
+- title `Adroitech OS: Systems and Methods for Person-Specific AI Runtime Modeling, Context Resolution, Portable Human Continuity, and Distributed Person-Centered Operation`;
+- application type `Utility - Provisional Application under 35 USC 111(b)`;
+- confirmation No. `5031`;
+- Patent Center No. `81801706`;
+- filed by `CHARLES TODD`;
+- first named inventor `CHARLES ANTHONY TODD`;
+- provisional filing fee code 1005, amount `$325.00`, quantity 1, total `$325.00`;
+- payment transaction ID `E20269F830387942`.
+
+The PDF calls itself an `ELECTRONIC PAYMENT RECEIPT` and states that the acknowledgement evidences USPTO receipt on the noted date of the indicated documents. However, the recovered two-page PDF does **not** itself enumerate those documents or their page counts. Its `FILING DATE` field is blank and it states that a Filing Receipt under 37 CFR 1.54 will issue in due course if the application includes the necessary filing-date components.
+
+Accordingly, this recovered authoritative artifact materially strengthens the application-number/title/inventor/receipt-time/payment anchor, but it does **not** resolve whether the drawings PDF was among the documents received.
 
 ## Controlling disposition
 
-Until an authoritative USPTO artifact resolves the conflict, the drawings PDF is:
+Until an authoritative USPTO artifact resolves the document-content conflict, the drawings PDF is:
 
 - **PRESERVED_PRE_FILING_ARTIFACT:** yes;
 - **BYTE-IDENTIFIED:** yes, by preserved pre-filing SHA-256;
