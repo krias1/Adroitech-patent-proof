@@ -17,8 +17,8 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | Domestic benefit claim | **FILING_ACTION** | ADS must specifically claim benefit of 64/155,744, filed 2026-09-16, subject to final anchor reconciliation. |
 | Inventorship | **LEGAL_REVIEW** | Resolve natural-person inventorship against final claim limitations and preserved human-conception evidence. |
 | ADS | **FILING_ACTION** | Prepare exact inventor/applicant/correspondence/benefit data. |
-| Specification | **IN_PROGRESS** | Preserve supported P1 disclosure; segregate later-added matter; complete terminology, enablement and best-mode work. |
-| Claims | **IN_PROGRESS / LEGAL_REVIEW** | Current source is the blob above; 20 claims / 3 independent. Mechanical dependency/antecedent screen passes subject to final-text QA. |
+| Specification | **IN_PROGRESS** | Preserve supported P1 disclosure; segregate later-added matter; complete terminology and best-mode work; enablement evidence passes subject to final exact-text QA. |
+| Claims | **IN_PROGRESS / LEGAL_REVIEW** | Current source is the blob above; 20 claims / 3 independent. Mechanical dependency/antecedent and enablement evidence screens pass subject to final-text QA. |
 | Abstract | **FILING_ACTION** | Prepare filing abstract under current USPTO requirements. |
 | Drawings | **IN_PROGRESS** | Reconcile every necessary mechanism, relationship, figure and reference numeral. |
 | Oath/declaration | **FILING_ACTION** | Execute with the initial package; no intentional missing-parts strategy. |
@@ -39,7 +39,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | §102 novelty | **IN_PROGRESS** | Complete element-level charts against strongest registered references. |
 | §103 nonobviousness | **OPEN / LEGAL_REVIEW** | Test actual combinations, motivations and missing elements; MI-0015 remains high priority. |
 | §112(a) written description | **PASS_EVIDENCE / FINAL-QA PENDING** | Frozen-P1 support dispositions exist for all 20 operative claims; final filing-text comparison remains. |
-| §112(a) enablement | **IN_PROGRESS** | Confirm claimed breadth is enabled without undue experimentation from P1 algorithms, flows, schemas and embodiments. |
+| §112(a) enablement | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`: the prior Claim 1 breadth defect is cured in the operative claim blob; no presently identified undue-experimentation defect remains in the three independent families or their narrowing dependents. Preserve the residual `designated durable-source update` support/definiteness check and rerun against final filing text/specification. |
 | §112(a) best mode | **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** | `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`. Final specification freeze/hash cannot clear until inventor confirmation for all three independent-claim families and disclosure mapping of any preferred mode. Later matter cannot be backfilled into P1. |
 | §112(b) dependency / obvious antecedent basis | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`: no unresolved mechanical dependency or antecedent-basis defect identified; Claim 11 cure remains effective. Rerun after any claim-text change. |
 | §112(b) whole-claim definiteness | **OPEN / LEGAL_REVIEW** | Complete objective-boundary/terminology review; mechanical dependency/antecedent screen alone does not establish definiteness. |
@@ -59,17 +59,18 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Formal P1 Filing Receipt reconciliation remains open; preserved acknowledgement/application identity remains the drafting anchor unless authoritative USPTO evidence contradicts it.
 - Exact operative claim source is blob `49fefff7d2d241b2d74e93a567ffbf47f6e6f63c`, 20 total / 3 independent (1, 9, 15).
 - §101 statutory category is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**: all 20 operative claims are method/process claims.
-- §101 utility is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_UTILITY_GATE.md`: each independent family has a specific, substantial, credible computing use and each dependent claim retains/narrows its parent-family use; final nexus QA remains.
+- §101 utility is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_UTILITY_GATE.md`.
 - §101 Step 2A Prong Two is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`.
-- §101 Step 2B fallback is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`; WURC must be treated as a factual inquiry and cannot be inferred merely from §§102/103 prior art. Final exact-text and dependent-claim review remain.
-- Mechanical dependency/antecedent-basis QA is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**; no forward, nonexistent, circular, or multiple dependency exists and Claim 11's prior antecedent defect remains cured. Whole-claim §112(b) remains open.
+- §101 Step 2B fallback is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`.
+- Mechanical dependency/antecedent-basis QA is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**; whole-claim §112(b) remains open.
 - Frozen-P1 written-description/priority dispositions exist for all 20 claims, subject to final filing-text QA.
+- §112(a) enablement is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`; the earlier Claim 1 breadth defect is cured, while the `designated durable-source update` coordinate remains a residual support/definiteness check rather than a hidden gap.
 - §112(f) is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**, not OPEN.
 - Best mode is a real **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** gate, not generic OPEN work.
-- Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`; no current trigger exists for ST.26, a qualifying Large Table, or a Computer Program Listing Appendix.
+- Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`.
 - Material-information register extends through **MI-0015**; MI-0015 remains adverse/high-priority for limitation-level §103 and IDS/materiality treatment.
 - Current fee snapshot is `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
-- Enablement, final §101 exact-file comparison/dependent-claim review, §102, §103, whole-claim §112(b), drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
+- Final §101 exact-file comparison/dependent-claim review, §102, §103, whole-claim §112(b), drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
 
 **OVERALL STATUS: NOT READY.**
 
@@ -89,6 +90,7 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-03_FRONT_DOOR_STALENESS_FILING_BLOCKER.md`
 - `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`
+- `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`
 - `P1/2026-10-04_SECTION101_STATUTORY_CATEGORY_GATE.md`
 - `P1/2026-10-04_SECTION101_UTILITY_GATE.md`
 - `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`
