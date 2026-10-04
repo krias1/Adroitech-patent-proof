@@ -22,7 +22,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | Abstract | **FILING_ACTION** | Prepare filing abstract under current USPTO requirements. |
 | Drawings | **IN_PROGRESS** | Reconcile every necessary mechanism, relationship, figure and reference numeral. |
 | Oath/declaration | **FILING_ACTION** | Execute with the initial package; no intentional missing-parts strategy. |
-| Initial fees | **IN_PROGRESS / FILING_ACTION** | Controlling snapshot: `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`. Present 20/3 count itself triggers no excess-claim fee; entity status and final page/format/special-submission checks remain. Recheck immediately before payment. |
+| Initial fees | **PASS_EVIDENCE / ENTITY-STATUS-AND-FINAL-FILE QA PENDING** | Controlling recheck: `P1/2026-10-04_CURRENT_INITIAL_FEE_RECHECK.md`. Current baseline for 20/3 is $2,000 regular / $800 small / $400 micro before any applicable size/format/special fees. Entity status and final file characteristics remain unresolved; recheck live schedule immediately before payment. |
 | DOCX / Patent Center | **FILING_ACTION** | Prefer DOCX description/claims/abstract and validate conversion before certification. |
 | Specialized submissions | **PASS_EVIDENCE / FINAL-FILE QA PENDING** | `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`: current subject matter requires no ST.26 Sequence Listing XML, qualifying Large Table, or Computer Program Listing Appendix. Reopen if final filing content introduces a triggering disclosure class. |
 | Exact-file QA / manifest | **OPEN** | Render/inspect final files; count claims/independent claims/pages; verify names/numbers/callouts; compute SHA-256 and byte length. |
@@ -70,7 +70,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Best mode is a real **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** gate, not generic OPEN work.
 - Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`.
 - Material-information register extends through **MI-0016**. MI-0015 remains adverse/high-priority; MI-0016 adds high-priority Claim 15 §103 combination pressure concerning provider-independent/deployer-owned persistent state. Neither is recorded as facial §102 anticipation of the complete operative Claim 15 combination.
-- Current fee snapshot is `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
+- Current fee control is `P1/2026-10-04_CURRENT_INITIAL_FEE_RECHECK.md`: baseline current schedule is $2,000 regular / $800 small / $400 micro for filing+search+examination; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
 - Final §101 exact-file comparison/dependent-claim review, §102, §103, drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
 
 **OVERALL STATUS: NOT READY.**
@@ -98,5 +98,6 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`
 - `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`
 - `P1/2026-10-04_MI0016_PROVIDER_INDEPENDENT_CONSTRAINT_ARCHITECTURE.md`
+- `P1/2026-10-04_CURRENT_INITIAL_FEE_RECHECK.md`
 
 Current procedural/fee rules must be rechecked against authoritative USPTO sources immediately before filing.
