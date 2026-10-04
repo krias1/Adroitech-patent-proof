@@ -24,7 +24,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | Oath/declaration | **FILING_ACTION** | Execute with the initial package; no intentional missing-parts strategy. |
 | Initial fees | **IN_PROGRESS / FILING_ACTION** | Controlling snapshot: `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`. Present 20/3 count itself triggers no excess-claim fee; entity status and final page/format/special-submission checks remain. Recheck immediately before payment. |
 | DOCX / Patent Center | **FILING_ACTION** | Prefer DOCX description/claims/abstract and validate conversion before certification. |
-| Specialized submissions | **N_A_PENDING_CONFIRMATION** | Affirmatively determine whether sequence listing, large table, computer listing or other special requirement applies. |
+| Specialized submissions | **PASS_EVIDENCE / FINAL-FILE QA PENDING** | `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`: current subject matter requires no ST.26 Sequence Listing XML, qualifying Large Table, or Computer Program Listing Appendix. Reopen if final filing content introduces a triggering disclosure class. |
 | Exact-file QA / manifest | **OPEN** | Render/inspect final files; count claims/independent claims/pages; verify names/numbers/callouts; compute SHA-256 and byte length. |
 | Zero-reconstruction upload packet | **OPEN** | Freeze exact filenames, descriptions, order, hashes, benefit claim, party data, fees, certification/payment steps. |
 
@@ -60,6 +60,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Frozen-P1 written-description/priority dispositions exist for all 20 claims, subject to final filing-text QA.
 - §112(f) is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**, not OPEN.
 - Best mode is a real **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** gate, not generic OPEN work.
+- Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`; no current trigger exists for ST.26, a qualifying Large Table, or a Computer Program Listing Appendix.
 - Material-information register extends through **MI-0015**; MI-0015 remains adverse/high-priority for limitation-level §103 and IDS/materiality treatment.
 - Current fee snapshot is `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
 - Enablement, §101, §102, §103, §112(b), drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
@@ -80,5 +81,6 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`
 - `P1/2026-10-03_READINESS_CONTROL_RECONCILIATION.md`
 - `P1/2026-10-03_FRONT_DOOR_STALENESS_FILING_BLOCKER.md`
+- `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`
 
 Current procedural/fee rules must be rechecked against authoritative USPTO sources immediately before filing.
