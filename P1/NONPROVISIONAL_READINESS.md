@@ -33,7 +33,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | Issue | Current disposition | Required work |
 |---|---|---|
 | §101 statutory category | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-04_SECTION101_STATUTORY_CATEGORY_GATE.md`: all 20 operative claims are method/process claims under Step 1; rerun if final claim form changes. |
-| §101 utility | **IN_PROGRESS** | Tie claimed mechanisms to specific, substantial, credible technical utility. |
+| §101 utility | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_SECTION101_UTILITY_GATE.md`: all three independent families have specific, substantial and technically credible practical-use theories; dependents retain and narrow those uses. Final exact-text/specification nexus QA remains. |
 | §101 eligibility — Step 2A Prong Two | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`: concrete technical-improvement theories are controlled for Claims 1, 9 and 15; final filing specification must technically explain each improvement and final claims must reflect the relied-upon mechanisms. |
 | §101 eligibility — Step 2B fallback | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`: independent families have controlled significantly-more fallback theories; WURC is treated as a factual inquiry distinct from §§102/103. Final exact-text and dependent-claim QA remain. |
 | §102 novelty | **IN_PROGRESS** | Complete element-level charts against strongest registered references. |
@@ -59,6 +59,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Formal P1 Filing Receipt reconciliation remains open; preserved acknowledgement/application identity remains the drafting anchor unless authoritative USPTO evidence contradicts it.
 - Exact operative claim source is blob `49fefff7d2d241b2d74e93a567ffbf47f6e6f63c`, 20 total / 3 independent (1, 9, 15).
 - §101 statutory category is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**: all 20 operative claims are method/process claims.
+- §101 utility is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_UTILITY_GATE.md`: each independent family has a specific, substantial, credible computing use and each dependent claim retains/narrows its parent-family use; final nexus QA remains.
 - §101 Step 2A Prong Two is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`.
 - §101 Step 2B fallback is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`; WURC must be treated as a factual inquiry and cannot be inferred merely from §§102/103 prior art. Final exact-text and dependent-claim review remain.
 - Mechanical dependency/antecedent-basis QA is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**; no forward, nonexistent, circular, or multiple dependency exists and Claim 11's prior antecedent defect remains cured. Whole-claim §112(b) remains open.
@@ -89,6 +90,7 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`
 - `P1/2026-10-04_SECTION101_STATUTORY_CATEGORY_GATE.md`
+- `P1/2026-10-04_SECTION101_UTILITY_GATE.md`
 - `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`
 - `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`
 
