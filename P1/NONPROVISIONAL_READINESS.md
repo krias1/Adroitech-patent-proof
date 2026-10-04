@@ -18,7 +18,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | Inventorship | **LEGAL_REVIEW** | Resolve natural-person inventorship against final claim limitations and preserved human-conception evidence. |
 | ADS | **FILING_ACTION** | Prepare exact inventor/applicant/correspondence/benefit data. |
 | Specification | **IN_PROGRESS** | Preserve supported P1 disclosure; segregate later-added matter; complete terminology and best-mode work; enablement evidence passes subject to final exact-text QA. |
-| Claims | **IN_PROGRESS / LEGAL_REVIEW** | Current source is the blob above; 20 claims / 3 independent. Mechanical dependency/antecedent and enablement evidence screens pass subject to final-text QA. |
+| Claims | **IN_PROGRESS / LEGAL_REVIEW** | Current source is the blob above; 20 claims / 3 independent. Mechanical dependency/antecedent, enablement, and whole-claim definiteness evidence screens pass subject to final-text/specification QA. |
 | Abstract | **FILING_ACTION** | Prepare filing abstract under current USPTO requirements. |
 | Drawings | **IN_PROGRESS** | Reconcile every necessary mechanism, relationship, figure and reference numeral. |
 | Oath/declaration | **FILING_ACTION** | Execute with the initial package; no intentional missing-parts strategy. |
@@ -42,7 +42,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | §112(a) enablement | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`: the prior Claim 1 breadth defect is cured in the operative claim blob; no presently identified undue-experimentation defect remains in the three independent families or their narrowing dependents. Preserve the residual `designated durable-source update` support/definiteness check and rerun against final filing text/specification. |
 | §112(a) best mode | **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** | `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`. Final specification freeze/hash cannot clear until inventor confirmation for all three independent-claim families and disclosure mapping of any preferred mode. Later matter cannot be backfilled into P1. |
 | §112(b) dependency / obvious antecedent basis | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`: no unresolved mechanical dependency or antecedent-basis defect identified; Claim 11 cure remains effective. Rerun after any claim-text change. |
-| §112(b) whole-claim definiteness | **OPEN / LEGAL_REVIEW** | Complete objective-boundary/terminology review; mechanical dependency/antecedent screen alone does not establish definiteness. |
+| §112(b) whole-claim definiteness | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_OPERATIVE_WHOLE_CLAIM_112B_RECONCILIATION.md`: October 2 whole-claim audit reconciled to exact operative blob; the later Claim 1 resource-limit narrowing does not introduce a new boundary defect. Residual P1-support controls remain separate. |
 | §112(f) | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-03_OPERATIVE_CLAIMS_112F_SCREEN.md` found no present operative limitation invoking §112(f). Rerun after any material claim-text change. |
 | P1 priority support | **PASS_EVIDENCE / FINAL-QA PENDING** | Preserve the exact frozen boundary and rerun final-text comparison. |
 | Drawing support | **IN_PROGRESS** | Complete limitation-to-figure reconciliation, including Claim 9 FIGS. 4/8. |
@@ -62,7 +62,8 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - §101 utility is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_UTILITY_GATE.md`.
 - §101 Step 2A Prong Two is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`.
 - §101 Step 2B fallback is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_STEP2B_FALLBACK_GATE.md`.
-- Mechanical dependency/antecedent-basis QA is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**; whole-claim §112(b) remains open.
+- Mechanical dependency/antecedent-basis QA is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**.
+- Whole-claim §112(b) is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_OPERATIVE_WHOLE_CLAIM_112B_RECONCILIATION.md`; final exact-text/specification comparison remains.
 - Frozen-P1 written-description/priority dispositions exist for all 20 claims, subject to final filing-text QA.
 - §112(a) enablement is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`; the earlier Claim 1 breadth defect is cured, while the `designated durable-source update` coordinate remains a residual support/definiteness check rather than a hidden gap.
 - §112(f) is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**, not OPEN.
@@ -70,7 +71,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`.
 - Material-information register extends through **MI-0015**; MI-0015 remains adverse/high-priority for limitation-level §103 and IDS/materiality treatment.
 - Current fee snapshot is `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
-- Final §101 exact-file comparison/dependent-claim review, §102, §103, whole-claim §112(b), drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
+- Final §101 exact-file comparison/dependent-claim review, §102, §103, drawings, inventorship, disclosure/new-matter review, specification/filing-paper construction, exact-file QA and Patent Center validation remain unresolved as applicable.
 
 **OVERALL STATUS: NOT READY.**
 
@@ -91,6 +92,7 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`
+- `P1/2026-10-04_OPERATIVE_WHOLE_CLAIM_112B_RECONCILIATION.md`
 - `P1/2026-10-04_SECTION101_STATUTORY_CATEGORY_GATE.md`
 - `P1/2026-10-04_SECTION101_UTILITY_GATE.md`
 - `P1/2026-10-04_SECTION101_STEP2A_PRONG_TWO_GATE.md`
