@@ -13,7 +13,7 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 
 | Gate | Status | Controlling action |
 |---|---|---|
-| Formal P1 Filing Receipt reconciliation | **OPEN** | Reconcile any formal receipt/deficiency/contrary USPTO record against preserved acknowledgement and exact filed artifacts. Drafting need not stop solely because the formal receipt is absent. |
+| P1 anchor integrity / formal Filing Receipt reconciliation | **PASS_EVIDENCE / FORMAL-RECEIPT RECONCILIATION STILL OPEN** | `P1/2026-10-04_P1_ACKNOWLEDGEMENT_RECEIPT_RECONCILIATION.md` pins application 64/155,744, receipt date 2026-09-16, exact title, first-named inventor CHARLES ANTHONY TODD, confirmation 5031, Patent Center 81801706, and paid $325 provisional fee from the preserved USPTO acknowledgement/payment receipt. The acknowledgement is not the later 37 CFR 1.54 Filing Receipt. Reconcile any formal receipt, deficiency, corrected receipt, or contrary Patent Center record before READY; drafting need not stop solely because none has yet been located. |
 | Domestic benefit claim | **FILING_ACTION** | ADS must specifically claim benefit of 64/155,744, filed 2026-09-16, subject to final anchor reconciliation. |
 | Inventorship | **LEGAL_REVIEW** | Resolve natural-person inventorship against final claim limitations and preserved human-conception evidence. |
 | ADS | **FILING_ACTION** | Prepare exact inventor/applicant/correspondence/benefit data. |
@@ -56,7 +56,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 
 ## D. Current reconciled state
 
-- Formal P1 Filing Receipt reconciliation remains open; preserved acknowledgement/application identity remains the drafting anchor unless authoritative USPTO evidence contradicts it.
+- P1 anchor identity is **PASS_EVIDENCE / FORMAL-RECEIPT RECONCILIATION STILL OPEN** under `P1/2026-10-04_P1_ACKNOWLEDGEMENT_RECEIPT_RECONCILIATION.md`: the preserved USPTO acknowledgement/payment receipt pins application 64/155,744, receipt date 2026-09-16, exact title, first-named inventor CHARLES ANTHONY TODD, confirmation 5031, Patent Center 81801706, and the paid $325 provisional fee. It is not the later formal Filing Receipt under 37 CFR 1.54; any formal receipt/deficiency/corrected receipt/contrary authoritative record still must be reconciled before READY.
 - Exact operative claim source is blob `49fefff7d2d241b2d74e93a567ffbf47f6e6f63c`, 20 total / 3 independent (1, 9, 15).
 - §101 statutory category is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**: all 20 operative claims are method/process claims.
 - §101 utility is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_SECTION101_UTILITY_GATE.md`.
@@ -89,6 +89,7 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`
 - `P1/2026-10-03_READINESS_CONTROL_RECONCILIATION.md`
 - `P1/2026-10-03_FRONT_DOOR_STALENESS_FILING_BLOCKER.md`
+- `P1/2026-10-04_P1_ACKNOWLEDGEMENT_RECEIPT_RECONCILIATION.md`
 - `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`
 - `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`
