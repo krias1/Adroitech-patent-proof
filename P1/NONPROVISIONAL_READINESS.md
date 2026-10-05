@@ -5,7 +5,7 @@
 **Proof repo:** `krias1/Adroitech-patent-proof`  
 **Operative claims blob:** `49fefff7d2d241b2d74e93a567ffbf47f6e6f63c`  
 **Claim surface:** 20 total / 3 independent (1, 9, 15)  
-**Reconciled:** 2026-10-04
+**Reconciled:** 2026-10-05
 
 This is the filing-control front door. P1 is frozen. Later technical matter never retroactively strengthens P1. “Undeniability” means an adversarially checked, reproducible record with defects exposed—not a promise of allowance.
 
@@ -40,11 +40,11 @@ This is the filing-control front door. P1 is frozen. Later technical matter neve
 | §103 nonobviousness | **OPEN / LEGAL_REVIEW** | Test actual combinations, motivations and missing elements; MI-0015 and MI-0016 are high-priority Claim 15-family pressure. |
 | §112(a) written description | **PASS_EVIDENCE / FINAL-QA PENDING** | Frozen-P1 support dispositions exist for all 20 operative claims; final filing-text comparison remains. |
 | §112(a) enablement | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`: the prior Claim 1 breadth defect is cured in the operative claim blob; no presently identified undue-experimentation defect remains in the three independent families or their narrowing dependents. Preserve the residual `designated durable-source update` support/definiteness check and rerun against final filing text/specification. |
-| §112(a) best mode | **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** | `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`. Final specification freeze/hash cannot clear until inventor confirmation for all three independent-claim families and disclosure mapping of any preferred mode. Later matter cannot be backfilled into P1. |
+| §112(a) best mode | **INVENTOR CHECK REQUIRED / NOT A P1-BENEFIT DEFECT** | Best mode remains a substantive §112(a) requirement for the nonprovisional and depends on the inventor's subjective filing-time state of mind. Before filing, confirm whether any mode is actually contemplated as better for each claimed family and, if so, ensure the nonprovisional as filed discloses it sufficiently. Do not manufacture a preferred mode from repository history. Current USPTO MPEP §§2165, 2165.01 and 2165.03 state that designation as “best mode” is unnecessary, updating best mode is not required for applications claiming benefit under §§119(e)/120, the earlier application's benefit disclosure is evaluated under §112(a) except best mode, and examiners assume best mode is disclosed absent contrary evidence. This inventor check therefore remains a pre-filing QA item, but it is not by itself a defect in P1 priority support and does not halt other perfection work. |
 | §112(b) dependency / obvious antecedent basis | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-04_OPERATIVE_CLAIMS_DEPENDENCY_ANTECEDENT_QA.md`: no unresolved mechanical dependency or antecedent-basis defect identified; Claim 11 cure remains effective. Rerun after any claim-text change. |
 | §112(b) whole-claim definiteness | **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** | `P1/2026-10-04_OPERATIVE_WHOLE_CLAIM_112B_RECONCILIATION.md`: October 2 whole-claim audit reconciled to exact operative blob; the later Claim 1 resource-limit narrowing does not introduce a new boundary defect. Residual P1-support controls remain separate. |
 | §112(f) | **PASS_EVIDENCE / FINAL-TEXT QA PENDING** | `P1/2026-10-03_OPERATIVE_CLAIMS_112F_SCREEN.md` found no present operative limitation invoking §112(f). Rerun after any material claim-text change. |
-| P1 priority support | **PASS_EVIDENCE / FINAL-QA PENDING** | Preserve the exact frozen boundary and rerun final-text comparison. |
+| P1 priority support | **PASS_EVIDENCE / FINAL-QA PENDING** | Preserve the exact frozen boundary and rerun final-text comparison. Best mode is not part of the earlier-application disclosure showing required for §119(e) benefit; written description and enablement remain controlling. |
 | Drawing support | **IN_PROGRESS** | Complete limitation-to-figure reconciliation, including Claim 9 FIGS. 4/8. |
 | Inventorship per claim | **LEGAL_REVIEW** | Resolve conception against actual final limitations. |
 | Material information / candor | **IN_PROGRESS** | `P1/MATERIAL_INFORMATION_REGISTER.csv` extends through MI-0016; finish claim charts, combination analysis and IDS/materiality disposition. MI-0016 adds provider-independent persistent-state pressure to Claim 15 and must be tested with MI-0008/MI-0004/MI-0015. |
@@ -67,7 +67,7 @@ For each material limitation preserve, where it actually exists: claim limitatio
 - Frozen-P1 written-description/priority dispositions exist for all 20 claims, subject to final filing-text QA.
 - §112(a) enablement is **PASS_EVIDENCE / FINAL-SPEC-AND-CLAIM QA PENDING** under `P1/2026-10-04_OPERATIVE_CLAIMS_ENABLEMENT_RECONCILIATION.md`; the earlier Claim 1 breadth defect is cured, while the `designated durable-source update` coordinate remains a residual support/definiteness check rather than a hidden gap.
 - §112(f) is **PASS_EVIDENCE / FINAL-TEXT QA PENDING**, not OPEN.
-- Best mode is a real **BLOCKED — INVENTOR CONFIRMATION REQUIRED BEFORE READY** gate, not generic OPEN work.
+- Best mode is **INVENTOR CHECK REQUIRED / NOT A P1-BENEFIT DEFECT**. It remains substantive nonprovisional §112(a) filing QA, but current USPTO guidance does not support treating absence of a separate inventor declaration as an automatic P1-priority failure or as a reason to halt unrelated perfection work.
 - Specialized-submission applicability is **PASS_EVIDENCE / FINAL-FILE QA PENDING** under `P1/2026-10-04_SPECIALIZED_SUBMISSIONS_GATE.md`.
 - Material-information register extends through **MI-0016**. MI-0015 remains adverse/high-priority; MI-0016 adds high-priority Claim 15 §103 combination pressure concerning provider-independent/deployer-owned persistent state. Neither is recorded as facial §102 anticipation of the complete operative Claim 15 combination.
 - Current fee control is `P1/2026-10-04_CURRENT_INITIAL_FEE_RECHECK.md`: baseline current schedule is $2,000 regular / $800 small / $400 micro for filing+search+examination; entity status and final page/format circumstances remain unresolved and the amount must be rechecked immediately before filing.
@@ -86,7 +86,7 @@ The final packet must expose without archaeology: P1 anchor; this readiness cont
 - `P1/2026-10-03_OPERATIVE_CLAIMS_112F_SCREEN.md`
 - `P1/2026-10-03_MI0015_NOTION_AI_STATE_RESUME_PRIOR_ART.md`
 - `P1/2026-10-03_CURRENT_INITIAL_FEE_CONTROL.md`
-- `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md`
+- `P1/2026-10-03_NONPROVISIONAL_BEST_MODE_GATE.md` (historical control; superseded as to absolute-blocker wording by the 2026-10-05 front-door reconciliation)
 - `P1/2026-10-03_READINESS_CONTROL_RECONCILIATION.md`
 - `P1/2026-10-03_FRONT_DOOR_STALENESS_FILING_BLOCKER.md`
 - `P1/2026-10-04_P1_ACKNOWLEDGEMENT_RECEIPT_RECONCILIATION.md`
